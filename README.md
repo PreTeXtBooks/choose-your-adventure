@@ -37,6 +37,27 @@ pipx install pretextbook
 
 For more installation options, see the [PreTeXt Guide](https://pretextbook.org/doc/guide/html/ch-installing.html).
 
+## Automated Builds and Deployment
+
+This repository uses GitHub Actions to automatically build and deploy the book:
+
+### Deployment to GitHub Pages
+
+When changes are pushed to the `main` branch, the book is automatically:
+1. Built using PreTeXt-CLI
+2. Deployed to GitHub Pages
+
+The live book is available at: `https://[username].github.io/choose-your-adventure/`
+
+### Pull Request Validation
+
+When a pull request is opened or updated:
+1. The book is built to validate there are no errors
+2. Build artifacts are uploaded for review
+3. The PR will show a ✅ or ❌ status based on the build result
+
+This ensures all changes are validated before merging.
+
 ## Building the Book
 
 ### Quick Start

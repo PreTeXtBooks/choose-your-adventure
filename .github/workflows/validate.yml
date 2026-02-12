@@ -1,0 +1,55 @@
+name: Validate PreTeXt Build
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'source/**'
+      - 'publication/**'
+      - 'project.ptx'
+      - '.github/workflows/validate.yml'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install PreTeXt-CLI
+        run: |
+          pip install pretextbook
+          pretext --version
+
+      - name: Build web target
+        run: |
+          pretext build web
+
+      - name: Check build output
+        run: |
+          if [ ! -d "./output/web" ]; then
+            echo "❌ Build failed: output directory not created"
+            exit 1
+          fi
+          
+          if [ ! -f "./output/web/index.html" ]; then
+            echo "❌ Build failed: index.html not generated"
+            exit 1
+          fi
+          
+          echo "✅ Build successful!"
+          echo "Generated files:"
+          ls -lh ./output/web/*.html | head -10
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: pretext-build-output
+          path: ./output/web
+          retention-days: 7
