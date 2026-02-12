@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<publication>
+  <!-- HTML-Specific Options -->
+  <html>
+    <!-- Set platform (e.g., "web" for online or "runestone" for Runestone Academy) -->
+    <platform host="web"/>
+    
+    <!-- Analytics (optional, remove if not needed) -->
+    <!-- <analytics google-gst="UA-0000000-0"/> -->
+    
+    <!-- Base URL for the online book -->
+    <!-- <baseurl href="https://example.com/book/"/> -->
+    
+    <!-- Index page configuration -->
+    <index-page ref="frontmatter"/>
+    
+    <!-- Navigation options -->
+    <navigation logic="linear"/>
+    
+    <!-- Calculator configuration -->
+    <calculator model="none"/>
+    
+    <!-- Cross-references -->
+    <cross-references text="global"/>
+  </html>
+
+  <!-- LaTeX/PDF-Specific Options -->
+  <latex>
+    <!-- Page geometry -->
+    <page>
+      <geometry>letterpaper,margin=1in</geometry>
+    </page>
+    
+    <!-- Cross-references in PDF -->
+    <cross-references text="type-global"/>
+  </latex>
+
+  <!-- Common Options -->
+  <common>
+    <!-- Exercise component visibility -->
+    <exercise-inline hint="yes" answer="no" solution="no"/>
+    <exercise-divisional hint="yes" answer="no" solution="no"/>
+    
+    <!-- Table of contents levels -->
+    <tableofcontents level="2"/>
+  </common>
+
+  <!-- Source Options -->
+  <source>
+    <!-- File locations relative to source directory -->
+    <directories external="../assets" generated="../generated-assets"/>
+  </source>
+
+</publication>

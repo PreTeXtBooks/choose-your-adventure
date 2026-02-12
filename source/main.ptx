@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
+
+  <docinfo>
+    <macros>
+      \newcommand{\R}{\mathbb{R}}
+    </macros>
+    <latex-image-preamble>
+      \usepackage{tikz}
+    </latex-image-preamble>
+  </docinfo>
+
+  <book xml:id="choose-your-adventure-stats">
+    <title>Data and Statistics: A Choose Your Own Adventure</title>
+    <subtitle>An Interactive Journey Through Statistical Concepts</subtitle>
+
+    <frontmatter xml:id="frontmatter">
+      <titlepage>
+        <author>
+          <personname>Author Name</personname>
+          <department>Department</department>
+          <institution>Institution</institution>
+        </author>
+        <date><today/></date>
+      </titlepage>
+
+      <colophon>
+        <copyright>
+          <year>2024<ndash/>2026</year>
+          <holder>Author Name</holder>
+          <shortlicense>
+            This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.
+            To view a copy of this license, visit
+            <url href="http://creativecommons.org/licenses/by-sa/4.0/"
+                 visual="creativecommons.org/licenses/by-sa/4.0">
+              CreativeCommons.org
+            </url>
+          </shortlicense>
+        </copyright>
+      </colophon>
+
+      <preface xml:id="preface">
+        <title>How to Use This Book</title>
+        <p>
+          Welcome to <em>Data and Statistics: A Choose Your Own Adventure</em>! 
+          This is not a traditional textbook. Instead, you will make decisions 
+          that guide your learning journey through the world of statistics.
+        </p>
+        <p>
+          <alert>How it works:</alert>
+          <ul>
+            <li>
+              <p>
+                You will encounter scenarios and questions that require you to 
+                analyze data or apply statistical concepts.
+              </p>
+            </li>
+            <li>
+              <p>
+                Work through the problems on your own (using paper, calculator, 
+                or statistical software outside this book).
+              </p>
+            </li>
+            <li>
+              <p>
+                Once you have your answer, return to the book and select the 
+                link that corresponds to your response.
+              </p>
+            </li>
+            <li>
+              <p>
+                Each choice will lead you to a different page with feedback 
+                and the next step in your journey.
+              </p>
+            </li>
+            <li>
+              <p>
+                There are multiple paths through this book - some lead to deeper 
+                understanding, others may require you to revisit concepts.
+              </p>
+            </li>
+          </ul>
+        </p>
+        <p>
+          Ready to begin your statistical adventure? Turn to <xref ref="chapter-beginning"/> 
+          to start your journey!
+        </p>
+      </preface>
+    </frontmatter>
+
+    <chapter xml:id="chapter-beginning">
+      <title>The Beginning of Your Journey</title>
+      
+      <introduction>
+        <p>
+          Your adventure in data and statistics begins here. Each decision 
+          you make will shape your understanding of statistical concepts.
+        </p>
+      </introduction>
+
+      <section xml:id="section-start">
+        <title>The Data Detective</title>
+        
+        <p>
+          You are a data detective who has been hired to investigate patterns 
+          in city crime data. Your client has given you a dataset with the 
+          following information:
+        </p>
+
+        <table xml:id="table-crime-data">
+          <title>Sample Crime Data (Last 7 Days)</title>
+          <tabular>
+            <row header="yes">
+              <cell>Day</cell>
+              <cell>Number of Incidents</cell>
+            </row>
+            <row>
+              <cell>Monday</cell>
+              <cell>12</cell>
+            </row>
+            <row>
+              <cell>Tuesday</cell>
+              <cell>15</cell>
+            </row>
+            <row>
+              <cell>Wednesday</cell>
+              <cell>18</cell>
+            </row>
+            <row>
+              <cell>Thursday</cell>
+              <cell>14</cell>
+            </row>
+            <row>
+              <cell>Friday</cell>
+              <cell>22</cell>
+            </row>
+            <row>
+              <cell>Saturday</cell>
+              <cell>25</cell>
+            </row>
+            <row>
+              <cell>Sunday</cell>
+              <cell>20</cell>
+            </row>
+          </tabular>
+        </table>
+
+        <p>
+          Your client wants to know: <q>What is the average number of crime 
+          incidents per day?</q>
+        </p>
+
+        <p>
+          <alert>Your task:</alert> Calculate the mean (average) number of 
+          incidents per day. Once you have your answer, choose the link below 
+          that matches your result.
+        </p>
+
+        <p>
+          <em>Work out the answer on your own, then return here to continue.</em>
+        </p>
+
+        <p>
+          <alert>Choose your answer:</alert>
+          <ul>
+            <li><p>If you calculated the mean as <m>16</m> incidents per day, go to <xref ref="section-wrong-16"/>.</p></li>
+            <li><p>If you calculated the mean as <m>18</m> incidents per day, go to <xref ref="section-correct-18"/>.</p></li>
+            <li><p>If you calculated the mean as <m>20</m> incidents per day, go to <xref ref="section-wrong-20"/>.</p></li>
+            <li><p>If you got a different answer or need help, go to <xref ref="section-hint-mean"/>.</p></li>
+          </ul>
+        </p>
+      </section>
+
+      <section xml:id="section-wrong-16">
+        <title>Not Quite Right</title>
+        
+        <p>
+          You calculated <m>16</m> incidents per day, but let's check your work.
+        </p>
+
+        <p>
+          The mean (average) is calculated by adding all values and dividing by 
+          the number of values:
+          <me>
+            \text{Mean} = \frac{12 + 15 + 18 + 14 + 22 + 25 + 20}{7}
+          </me>
+        </p>
+
+        <p>
+          Let's add these up: <m>12 + 15 + 18 + 14 + 22 + 25 + 20 = 126</m>
+        </p>
+
+        <p>
+          Then divide by 7: <m>126 \div 7 = 18</m>
+        </p>
+
+        <p>
+          The correct answer is <m>18</m> incidents per day. Perhaps you made 
+          an arithmetic error in your addition or division.
+        </p>
+
+        <p>
+          Now that you understand, continue to <xref ref="section-correct-18"/> 
+          to proceed with your investigation.
+        </p>
+      </section>
+
+      <section xml:id="section-correct-18">
+        <title>Excellent Work!</title>
+        
+        <p>
+          <alert>Correct!</alert> You calculated the mean as <m>18</m> incidents 
+          per day. Well done!
+        </p>
+
+        <p>
+          Let's verify: The sum of all incidents is <m>12 + 15 + 18 + 14 + 22 + 25 + 20 = 126</m>, 
+          and <m>126 \div 7 = 18</m> incidents per day.
+        </p>
+
+        <p>
+          Your client is impressed with your quick analysis. Now they want to 
+          dig deeper. They ask: <q>What's the median number of incidents? And 
+          how does it compare to the mean?</q>
+        </p>
+
+        <p>
+          <alert>Your next task:</alert> Find the median (the middle value when 
+          the data is arranged in order) for the same dataset.
+        </p>
+
+        <p>
+          <em>Arrange the values in order and find the middle value, then return here.</em>
+        </p>
+
+        <p>
+          <alert>What's the median?</alert>
+          <ul>
+            <li><p>If you found the median to be <m>15</m>, go to <xref ref="section-wrong-median-15"/>.</p></li>
+            <li><p>If you found the median to be <m>18</m>, go to <xref ref="section-correct-median-18"/>.</p></li>
+            <li><p>If you found the median to be <m>20</m>, go to <xref ref="section-wrong-median-20"/>.</p></li>
+            <li><p>If you need help understanding median, go to <xref ref="section-hint-median"/>.</p></li>
+          </ul>
+        </p>
+      </section>
+
+      <section xml:id="section-wrong-20">
+        <title>Check Your Calculation</title>
+        
+        <p>
+          You calculated <m>20</m> incidents per day. Let's work through this together.
+        </p>
+
+        <p>
+          To find the mean, we need to:
+          <ol>
+            <li><p>Add all the values together</p></li>
+            <li><p>Divide by the number of values (7 days)</p></li>
+          </ol>
+        </p>
+
+        <p>
+          Sum: <m>12 + 15 + 18 + 14 + 22 + 25 + 20 = 126</m>
+        </p>
+
+        <p>
+          Mean: <m>126 \div 7 = 18</m>
+        </p>
+
+        <p>
+          The correct mean is <m>18</m> incidents per day, not <m>20</m>. 
+          Perhaps you looked at Sunday's value (<m>20</m>) instead of calculating 
+          the average?
+        </p>
+
+        <p>
+          Continue to <xref ref="section-correct-18"/> to move forward.
+        </p>
+      </section>
+
+      <section xml:id="section-hint-mean">
+        <title>Understanding the Mean</title>
+        
+        <p>
+          The <term>mean</term> (or <term>average</term>) is one of the most 
+          common measures of central tendency in statistics.
+        </p>
+
+        <definition xml:id="def-mean">
+          <title>Mean</title>
+          <statement>
+            <p>
+              The mean of a dataset is calculated by adding all values together 
+              and dividing by the number of values:
+              <me>
+                \bar{x} = \frac{x_1 + x_2 + x_3 + \cdots + x_n}{n}
+              </me>
+              where <m>n</m> is the number of data points.
+            </p>
+          </statement>
+        </definition>
+
+        <p>
+          For our crime data, we have 7 days, so <m>n = 7</m>. Add all the 
+          incident counts and divide by 7.
+        </p>
+
+        <p>
+          Try the calculation again, then return to <xref ref="section-start"/> 
+          to select your answer.
+        </p>
+      </section>
+
+      <section xml:id="section-wrong-median-15">
+        <title>Median Attempt - Not Quite</title>
+        
+        <p>
+          You found <m>15</m> as the median. Let's review the process.
+        </p>
+
+        <p>
+          To find the median, first arrange the values in order:
+          <me>12, 14, 15, 18, 20, 22, 25</me>
+        </p>
+
+        <p>
+          With 7 values (an odd number), the median is the middle value - 
+          the 4th value in the ordered list.
+        </p>
+
+        <p>
+          Counting from the left: 12 (1st), 14 (2nd), 15 (3rd), <alert>18 (4th)</alert>, 
+          20 (5th), 22 (6th), 25 (7th).
+        </p>
+
+        <p>
+          The median is <m>18</m>. The value <m>15</m> is the 3rd value, not the middle.
+        </p>
+
+        <p>
+          Continue to <xref ref="section-correct-median-18"/>.
+        </p>
+      </section>
+
+      <section xml:id="section-correct-median-18">
+        <title>Great Statistical Thinking!</title>
+        
+        <p>
+          <alert>Correct!</alert> The median is <m>18</m> incidents per day.
+        </p>
+
+        <p>
+          Ordered data: <m>12, 14, 15, 18, 20, 22, 25</m>
+        </p>
+
+        <p>
+          The middle value (4th out of 7) is <m>18</m>.
+        </p>
+
+        <p>
+          Interesting observation: In this dataset, the mean and median are both 
+          <m>18</m>! This suggests the data is fairly symmetric.
+        </p>
+
+        <p>
+          Your client is pleased with your analysis. You've successfully completed 
+          your first statistical investigation!
+        </p>
+
+        <p>
+          <alert>Ready for more adventures?</alert> Additional chapters with new 
+          scenarios will be added here. Check back soon for:
+          <ul>
+            <li><p>Chapter 2: The Mystery of the Missing Data</p></li>
+            <li><p>Chapter 3: Correlation or Coincidence?</p></li>
+            <li><p>Chapter 4: The Probability Puzzle</p></li>
+          </ul>
+        </p>
+      </section>
+
+      <section xml:id="section-wrong-median-20">
+        <title>Median Check</title>
+        
+        <p>
+          You found <m>20</m> as the median. Let's verify this.
+        </p>
+
+        <p>
+          First, arrange all values in ascending order:
+          <me>12, 14, 15, 18, 20, 22, 25</me>
+        </p>
+
+        <p>
+          For an odd number of values (we have 7), the median is the middle value. 
+          Count to find the 4th value (since <m>(7+1)/2 = 4</m>).
+        </p>
+
+        <p>
+          The 4th value is <m>18</m>, not <m>20</m>. The value <m>20</m> is 
+          actually the 5th value in the ordered list.
+        </p>
+
+        <p>
+          Continue to <xref ref="section-correct-median-18"/> with the correct answer.
+        </p>
+      </section>
+
+      <section xml:id="section-hint-median">
+        <title>Understanding the Median</title>
+        
+        <p>
+          The <term>median</term> is another measure of central tendency that 
+          represents the middle value of a dataset.
+        </p>
+
+        <definition xml:id="def-median">
+          <title>Median</title>
+          <statement>
+            <p>
+              The median is the middle value when data is arranged in order. 
+              <ul>
+                <li><p>If there's an odd number of values, the median is the middle value.</p></li>
+                <li><p>If there's an even number of values, the median is the average of the two middle values.</p></li>
+              </ul>
+            </p>
+          </statement>
+        </definition>
+
+        <p>
+          For our crime data with 7 values:
+          <ol>
+            <li><p>Arrange in order: <m>12, 14, 15, 18, 20, 22, 25</m></p></li>
+            <li><p>Find the middle position: <m>(7+1)/2 = 4</m></p></li>
+            <li><p>The 4th value is the median</p></li>
+          </ol>
+        </p>
+
+        <p>
+          Try again, then return to <xref ref="section-correct-18"/> to select your answer.
+        </p>
+      </section>
+
+    </chapter>
+
+    <backmatter xml:id="backmatter">
+      <title>Back Matter</title>
+
+      <appendix xml:id="appendix-formulas">
+        <title>Statistical Formulas Reference</title>
+        
+        <p>
+          This appendix contains key statistical formulas used throughout the book.
+        </p>
+
+        <subsection xml:id="subsection-central-tendency">
+          <title>Measures of Central Tendency</title>
+          
+          <p>
+            <dl>
+              <li>
+                <title>Mean (Average)</title>
+                <p><m>\bar{x} = \frac{\sum_{i=1}^{n} x_i}{n}</m></p>
+              </li>
+              <li>
+                <title>Median</title>
+                <p>The middle value when data is ordered</p>
+              </li>
+              <li>
+                <title>Mode</title>
+                <p>The most frequently occurring value</p>
+              </li>
+            </dl>
+          </p>
+        </subsection>
+      </appendix>
+
+      <index>
+        <title>Index</title>
+        <index-list/>
+      </index>
+
+    </backmatter>
+
+  </book>
+
+</pretext>

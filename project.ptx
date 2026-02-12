@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  This file contains project-level configuration for the PreTeXt-CLI.
+  It specifies targets for building the book in different formats.
+-->
+<project ptx-version="2">
+  <targets>
+    <!-- HTML target for web viewing -->
+    <target name="web">
+      <format>html</format>
+      <source>source/main.ptx</source>
+      <publication>publication/publication.ptx</publication>
+      <output-dir>output/web</output-dir>
+      <stringparam key="html.css.extra" value="custom-styles.css"/>
+    </target>
+    
+    <!-- PDF target via LaTeX -->
+    <target name="print">
+      <format>pdf</format>
+      <source>source/main.ptx</source>
+      <publication>publication/publication.ptx</publication>
+      <output-dir>output/print</output-dir>
+    </target>
+    
+    <!-- EPUB target for e-readers -->
+    <target name="epub">
+      <format>epub</format>
+      <source>source/main.ptx</source>
+      <publication>publication/publication.ptx</publication>
+      <output-dir>output/epub</output-dir>
+    </target>
+  </targets>
+  
+  <executables>
+    <!-- Specify paths to executables if needed, otherwise use system defaults -->
+    <!-- <latex>latex</latex> -->
+    <!-- <pdflatex>pdflatex</pdflatex> -->
+    <!-- <xelatex>xelatex</xelatex> -->
+  </executables>
+</project>
