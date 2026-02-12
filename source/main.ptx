@@ -265,9 +265,9 @@
         <p>
           <alert>What do you choose?</alert>
           <ul>
-            <li><p><xref ref="section-big-q1">Big Survey - The National Approach</xref></p></li>
-            <li><p><xref ref="section-medium-q1">Medium Survey - The Balanced Approach</xref></p></li>
-            <li><p><xref ref="section-small-q1">Small Study - The In-Depth Approach</xref></p></li>
+            <li><p><xref ref="section-big-q1">Big Study</xref></p></li>
+            <li><p><xref ref="section-medium-q1">Medium Study</xref></p></li>
+            <li><p><xref ref="section-small-q1">Small Study</xref></p></li>
           </ul>
         </p>
       </section>
