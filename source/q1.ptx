@@ -130,6 +130,68 @@
     </p>
   </section>
 
+  <section xml:id="Q1-large-icri-regin">
+    <title>Incorrect Region</title>
+    
+    <p>
+      <q>Regin, of course.</q>
+    </p>
+
+    <p>
+      The farmer frowns, <q>That doesn't sound very confident.</q>
+    </p>
+
+    <p>
+      The Anikrub sun is hot and you feel sweat going down your face. You realise you may be smoothing over something important.
+    </p>
+
+    <assemblage>
+      <p>
+        Hint: Look at yield by region and variety. Averages across countries can hide regional differences.
+      </p>
+    </assemblage>
+
+    <p>
+      <ul>
+        <li><p><xref ref="Q1-large-help">ICRI</xref></p></li>
+        <li><p><xref ref="Q1-large-locale-correct">Locale</xref></p></li>
+        <li><p><xref ref="Q1-large-help">Either</xref></p></li>
+        <li><p><xref ref="Q1-large-help">I don't know</xref></p></li>
+      </ul>
+    </p>
+  </section>
+
+  <section xml:id="Q1-large-icri-ilam">
+    <title>Incorrect Region</title>
+    
+    <p>
+      <q>Ilam, of course.</q>
+    </p>
+
+    <p>
+      The farmer frowns, <q>That doesn't sound very confident.</q>
+    </p>
+
+    <p>
+      The Anikrub sun is hot and you feel sweat going down your face. You realise you may be smoothing over something important.
+    </p>
+
+    <assemblage>
+      <p>
+        Hint: Look at yield by region and variety. Averages across countries can hide regional differences.
+      </p>
+    </assemblage>
+
+    <p>
+      <ul>
+        <li><p><xref ref="Q1-large-help">ICRI</xref></p></li>
+        <li><p><xref ref="Q1-large-locale-correct">Locale</xref></p></li>
+        <li><p><xref ref="Q1-large-help">Either</xref></p></li>
+        <li><p><xref ref="Q1-large-help">I don't know</xref></p></li>
+      </ul>
+    </p>
+  </section>
+
   <section xml:id="Q1-large-icri-either">
     <title>Either - Large Dataset (After ICRI)</title>
     
@@ -224,8 +286,8 @@
     <p>
       <alert>Option:</alert>
       <ul>
-        <li><p><xref ref="Q1-large-icri-either">Regin</xref></p></li>
-        <li><p><xref ref="Q1-large-icri-either">Ilam</xref></p></li>
+        <li><p><xref ref="Q1-large-icri-regin">Regin</xref></p></li>
+        <li><p><xref ref="Q1-large-icri-ilam">Ilam</xref></p></li>
         <li><p><xref ref="Q1-large-locale-correct">Anikrub</xref></p></li>
         <li><p><xref ref="Q1-large-icri-idk">I don't know</xref></p></li>
       </ul>
@@ -666,10 +728,72 @@
     <p>
       <alert>Option:</alert>
       <ul>
-        <li><p><xref ref="Q1-medium-locale-either">Regin</xref></p></li>
-        <li><p><xref ref="Q1-medium-locale-either">Anikrub</xref></p></li>
+        <li><p><xref ref="Q1-medium-locale-correct">Regin</xref></p></li>
+        <li><p><xref ref="Q1-medium-anikrub">Anikrub</xref></p></li>
         <li><p><xref ref="Q1-medium-icri-correct">Ilam</xref></p></li>
         <li><p><xref ref="Q1-medium-icri-correct">I don't know</xref></p></li>
+      </ul>
+    </p>
+  </section>
+
+  <section xml:id="Q1-medium-anikrub">
+    <title>Anikrub - Variety</title>
+    
+    <p>
+      You pause.
+    </p>
+
+    <p>
+      <q>Anikrub?</q>
+    </p>
+
+    <p>
+      The farmer narrows his eyes.
+    </p>
+
+    <p>
+      You feel that small tightening in your stomach.
+    </p>
+
+    <p>
+      You pull out your notebook again.
+    </p>
+
+    <p>
+      Across the medium dataset, the overall difference between ICRI and Local is<ellipsis/> small.
+    </p>
+
+    <p>
+      Very small.
+    </p>
+
+    <p>
+      When you look at Ilam alone, the pattern seems to shift slightly.
+    </p>
+
+    <p>
+      But is that shift real?
+    </p>
+
+    <p>
+      Or is it noise?
+    </p>
+
+    <p>
+      You stare at the numbers. Does knowing this farmer is from Ilam change your answer?
+    </p>
+
+    <p>
+      The farmer waits.
+    </p>
+
+    <p>
+      What do you say?
+      <ul>
+        <li><p><xref ref="Q1-medium-icri">ICRI</xref></p></li>
+        <li><p><xref ref="Q1-medium-locale">Locale</xref></p></li>
+        <li><p><xref ref="Q1-medium-help">Either</xref></p></li>
+        <li><p><xref ref="Q1-medium-idk">I don't know</xref></p></li>
       </ul>
     </p>
   </section>
@@ -755,6 +879,7 @@
       </ul>
     </p>
   </section>
+
 
   <section xml:id="Q1-medium-idk">
     <title>I Don't Know - Medium Dataset</title>
@@ -1117,8 +1242,8 @@
     <p>
       <alert>Option:</alert>
       <ul>
-        <li><p><xref ref="Q1-small-icri-either">Regin</xref></p></li>
-        <li><p><xref ref="Q1-small-icri-either">Ilam</xref></p></li>
+        <li><p><xref ref="Q1-small-icri-regin">Regin</xref></p></li>
+        <li><p><xref ref="Q1-small-icri-ilam">Ilam</xref></p></li>
         <li><p><xref ref="Q1-small-locale-correct">Anikrub</xref></p></li>
         <li><p><xref ref="Q1-small-icri-idk">I don't know</xref></p></li>
       </ul>
@@ -1169,7 +1294,7 @@
     </p>
 
     <p>
-      Across the medium dataset, the overall difference between ICRI and Local is<ellipsis/> small.
+      Across the dataset, the overall difference between ICRI and Local is<ellipsis/> small.
     </p>
 
     <p>
@@ -1178,6 +1303,156 @@
 
     <p>
       When you look at Anikrub alone, the pattern seems to shift slightly.
+    </p>
+
+    <p>
+      But is that shift real?
+    </p>
+
+    <p>
+      Or is it noise?
+    </p>
+
+    <p>
+      You stare at the numbers. Does knowing this farmer is from Anikrub change your answer?
+    </p>
+
+    <p>
+      The farmer waits.
+    </p>
+
+    <p>
+      What do you say?
+      <ul>
+        <li><p><xref ref="Q1-small-icri">ICRI</xref></p></li>
+        <li><p><xref ref="Q1-small-locale">Locale</xref></p></li>
+        <li><p><xref ref="Q1-small-help">Either</xref></p></li>
+        <li><p><xref ref="Q1-small-idk">I don't know</xref></p></li>
+      </ul>
+    </p>
+  </section>
+
+
+  <section xml:id="Q1-small-ilam">
+    <title>Ilam - Small Dataset</title>
+    
+    <p>
+      You pause.
+    </p>
+
+    <p>
+      <q>Ilam.</q>
+    </p>
+
+    <p>
+      The farmer narrows his eyes.
+    </p>
+
+    <p>
+      You feel that small tightening in your stomach.
+    </p>
+
+    <p>
+      With a larger dataset, you had thousands of farmers across all three countries. Patterns would be clearer – even if misleading at first glance.
+    </p>
+
+    <p>
+      But this time, you're working with several hundred farmers. Carefully sampled. Balanced. Manageable.
+    </p>
+
+    <p>
+      But not enormous.
+    </p>
+
+    <p>
+      You pull out your notebook again.
+    </p>
+
+    <p>
+      The overall difference between ICRI and Local is<ellipsis/> small.
+    </p>
+
+    <p>
+      Very small.
+    </p>
+
+    <p>
+      When you look at the yields by region, the pattern seems to shift slightly.
+    </p>
+
+    <p>
+      But is that shift real?
+    </p>
+
+    <p>
+      Or is it noise?
+    </p>
+
+    <p>
+      You stare at the numbers. Does knowing this farmer is from Anikrub change your answer?
+    </p>
+
+    <p>
+      The farmer waits.
+    </p>
+
+    <p>
+      What do you say?
+      <ul>
+        <li><p><xref ref="Q1-small-icri">ICRI</xref></p></li>
+        <li><p><xref ref="Q1-small-locale">Locale</xref></p></li>
+        <li><p><xref ref="Q1-small-help">Either</xref></p></li>
+        <li><p><xref ref="Q1-small-idk">I don't know</xref></p></li>
+      </ul>
+    </p>
+  </section>
+
+
+  <section xml:id="Q1-small-regin">
+    <title>Regin - Small Dataset</title>
+    
+    <p>
+      You pause.
+    </p>
+
+    <p>
+      <q>Regin.</q>
+    </p>
+
+    <p>
+      The farmer narrows his eyes.
+    </p>
+
+    <p>
+      You feel that small tightening in your stomach.
+    </p>
+
+    <p>
+      With a larger dataset, you had thousands of farmers across all three countries. Patterns would be clearer – even if misleading at first glance.
+    </p>
+
+    <p>
+      But this time, you're working with several hundred farmers. Carefully sampled. Balanced. Manageable.
+    </p>
+
+    <p>
+      But not enormous.
+    </p>
+
+    <p>
+      You pull out your notebook again.
+    </p>
+
+    <p>
+      Across the dataset, the overall difference between ICRI and Local is<ellipsis/> small.
+    </p>
+
+    <p>
+      Very small.
+    </p>
+
+    <p>
+      When you look at the yields by region, the pattern seems to shift slightly.
     </p>
 
     <p>
