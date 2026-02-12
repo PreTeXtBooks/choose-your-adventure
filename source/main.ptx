@@ -456,9 +456,18 @@
         </p>
       </section>
 
+    </chapter>
 
     <xi:include href="q1.ptx"/>
 
+    <chapter xml:id="chapter-q2">
+      <title>Question 2</title>
+      
+      <introduction>
+        <p>
+          <alert>Question 2 content to be added.</alert>
+        </p>
+      </introduction>
 
       <section xml:id="Q2-small">
         <title>Question 2 - Small Dataset</title>
