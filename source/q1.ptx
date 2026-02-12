@@ -7,8 +7,6 @@
     <p>
       In this chapter, you will encounter your first major analytical challenge: 
       understanding how aggregate data can mask important patterns when context matters.
-      This phenomenon, known as Simpson's Paradox, is crucial for making sound 
-      recommendations in real-world situations.
     </p>
   </introduction>
 
