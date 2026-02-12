@@ -421,26 +421,41 @@
     </p>
 
     <p>
-      The farmer looks satisfied and thanks you.
+      The farmer squints at you, <q>Hmm.</q> They're not convinced, and that plays on your mind.
     </p>
 
     <p>
-      Later, as you review your data, you want to make sure your recommendation was sound. You look at the overall average: ICRI appears slightly better across all districts.
+      Later that evening, as you sit reviewing the data more carefully, something unsettles you.
     </p>
 
     <p>
-      But wait - this farmer is in Ilam. When you filter your data to Ilam specifically, you see that ICRI clearly outperforms Locale in this region.
+      <q>Wait<ellipsis/> what?</q>
     </p>
 
     <p>
-      You may have given the wrong advice.
+      You flip back through your tables.
     </p>
 
     <p>
-      Let's reconsider. The farmer is in Ilam. What should you have recommended?
+      You would have expected that pattern somewhere else -- but do you expect that here in Ilam?
+    </p>
+
+    <p>
+      The farmer comes back the next day.
+    </p>
+
+    <p>
+      <q>So<ellipsis/> are you sure?</q>
+    </p>
+
+    <p>
+      What do you say now?
+    </p>
+
+    <p>
       <ul>
         <li><p><xref ref="Q1-medium-locale-locale">Locale</xref></p></li>
-        <li><p><xref ref="Q1-medium-locale-icri">ICRI</xref></p></li>
+        <li><p><xref ref="Q1-medium-icri-correct">ICRI</xref></p></li>
         <li><p><xref ref="Q1-medium-locale-either">Either</xref></p></li>
         <li><p><xref ref="Q1-medium-locale-idk">I don't know</xref></p></li>
       </ul>
@@ -451,23 +466,34 @@
     <title>Locale Again - Medium Dataset</title>
     
     <p>
-      No, that's the same mistake.
+      You double down, <q>Still Locale.</q>
     </p>
 
     <p>
-      The farmer is in Ilam. When you check the data for Ilam specifically, ICRI clearly outperforms Locale in this region.
+      The farmer raises an eyebrow, <q>Do you work for this Locale variety or something?</q>
     </p>
 
     <p>
-      You keep recommending Locale without checking the context. This is exactly the kind of error that Simpson's Paradox warns us about: ignoring subgroup patterns in favor of aggregate results.
+      You feel your face warm. That Ilam sun is hot today.
     </p>
 
     <p>
-      In this case, the overall average across all regions might have favored Locale, but in Ilam, the pattern reverses.
+      Time to slow down.
     </p>
 
+    <assemblage>
+      <p>
+        Hint: Have you looked at yield by region and variety?
+      </p>
+      <p>
+        Not just overall yield - but yield broken down by region as well as variety.
+      </p>
+      <p>
+        The data are not flat, they are layered. Try again.
+      </p>
+    </assemblage>
+
     <p>
-      Let's try once more. The farmer is in Ilam. What should you recommend?
       <ul>
         <li><p><xref ref="Q1-medium-help">Locale</xref></p></li>
         <li><p><xref ref="Q1-medium-icri-correct">ICRI</xref></p></li>
@@ -481,19 +507,24 @@
     <title>Either - Medium Dataset (After Locale)</title>
     
     <p>
-      That's still not quite right.
+      <q>Either one should be fine.</q>
     </p>
 
     <p>
-      The data for Ilam shows a clear difference: ICRI outperforms Locale in this region. Saying <q>either</q> ignores the evidence you've collected.
+      The farmer frowns, <q>That doesn't sound very confident.</q>
     </p>
 
     <p>
-      Your job is to give context-specific recommendations when the data supports them.
+      The Ilam sun is hot and you start to sweat. You realise you may be smoothing over something important.
     </p>
 
+    <assemblage>
+      <p>
+        Hint: Look at yield by region and variety. Averages across countries can hide regional differences.
+      </p>
+    </assemblage>
+
     <p>
-      Let's try again. The farmer is in Ilam. What should you recommend?
       <ul>
         <li><p><xref ref="Q1-medium-help">Locale</xref></p></li>
         <li><p><xref ref="Q1-medium-icri-correct">ICRI</xref></p></li>
@@ -507,19 +538,34 @@
     <title>I Don't Know - Medium Dataset (After Locale)</title>
     
     <p>
-      You actually do have data to guide you.
+      You hesitate. <q>I<ellipsis/> need to check something.</q>
     </p>
 
     <p>
-      When you filter your results to Ilam, the data clearly shows that ICRI outperforms Locale in this specific region.
+      You reopen your analysis.
     </p>
 
     <p>
-      Saying <q>I don't know</q> when you have clear evidence is not caution - it's avoiding your responsibility as a researcher.
+      You suddenly notice that you've been looking at overall averages across all three countries.
     </p>
 
     <p>
-      Let's try again. The farmer is in Ilam. What should you recommend?
+      But this farmer is in <alert>Ilam</alert>, and the pattern here is not the same as the overall pattern from your data.
+    </p>
+
+    <assemblage>
+      <p>
+        Hint:
+      </p>
+      <p>
+        Filter the data to Ilam.
+      </p>
+      <p>
+        Then compare yield by variety.
+      </p>
+    </assemblage>
+
+    <p>
       <ul>
         <li><p><xref ref="Q1-medium-help">Locale</xref></p></li>
         <li><p><xref ref="Q1-medium-icri-correct">ICRI</xref></p></li>
@@ -529,7 +575,8 @@
     </p>
   </section>
 
-  <section xml:id="Q1-medium-locale-icri">
+  <section xml:id="Q1-medium-locale-icri">'
+
     <title>Correcting to ICRI - Medium Dataset</title>
     
     <p>
@@ -562,42 +609,34 @@
   </section>
 
   <section xml:id="Q1-medium-icri-correct">
-    <title>ICRI - Medium Dataset</title>
+    <title>ICRI - Ilam (Correct)</title>
     
     <p>
-      Good thinking.
+      You smile. <q>For Ilam? Plant the ICRI variety.</q>
     </p>
 
     <p>
-      You tell the farmer, <q>Based on the data from your region, I'd recommend ICRI.</q>
+      The farmer nods slowly. <q>That makes sense. It's what many of us have been noticing.</q>
     </p>
 
     <p>
-      The farmer nods appreciatively. <q>That's helpful. But I'm curious - what about other regions?</q>
+      You feel relieved -- and slightly humbled.
     </p>
 
     <p>
-      You pull out your notebook. <q>It depends. In Ilam, ICRI performs better. But in Anikrub and Regin, Locale tends to do as well or better.</q>
+      Across the entire dataset, Locale may look stronger on average. But when you break the data down by region, Ilam tells a different story.
     </p>
 
     <p>
-      The farmer is impressed. <q>So it's not a simple answer.</q>
+      You've just discovered something important:
     </p>
 
     <p>
-      <q>Exactly,</q> you reply. <q>This is why we need to analyze data carefully by region. What works in one place may not work in another.</q>
+      Overall averages can mislead and the best decision can depend on context.
     </p>
 
     <p>
-      You've avoided a common trap: recommending based on overall averages without considering local context.
-    </p>
-
-    <p>
-      This is <alert>Simpson's Paradox</alert> in action - where aggregate results can reverse when data is broken down by meaningful subgroups.
-    </p>
-
-    <p>
-      By analyzing the data for Ilam specifically, you gave the right advice.
+      You turn the page in your notebook. This is more complicated than you thought.
     </p>
 
     <p>
@@ -606,44 +645,31 @@
   </section>
 
   <section xml:id="Q1-medium-icri">
-    <title>ICRI - Medium Dataset (Initial Choice)</title>
+    <title>ICRI - Medium Dataset</title>
     
     <p>
-      You think for a moment and say, <q>Plant ICRI.</q>
+      You say confidently, <q>ICRI.</q>
     </p>
 
     <p>
-      The farmer thanks you and walks away. But something nags at you.
+      The farmer smiles. <q>Interesting. That matches what some of us have seen.</q>
     </p>
 
     <p>
-      You sit down with your laptop and pull up the data. The farmer was from a market town - but which region exactly? You try to remember.
+      But then he tilts his head. <q>If you're so sure<ellipsis/> tell me this. In which region does ICRI outperform Locale on average?</q> (If there are multiple, give only one)
     </p>
 
     <p>
-      You realize you didn't ask which region they were from before giving your recommendation.
+      Now it's your turn to think.
     </p>
 
     <p>
-      Looking at your data:
-      <ul>
-        <li><p>In Ilam, ICRI is better</p></li>
-        <li><p>In Regin, Locale is slightly better</p></li>
-        <li><p>In Anikrub, Locale is clearly better</p></li>
-      </ul>
-    </p>
-
-    <p>
-      You gave a blanket recommendation without checking context. The farmer could be from any of these regions.
-    </p>
-
-    <p>
-      Which region was the farmer from?
+      <alert>Option:</alert>
       <ul>
         <li><p><xref ref="Q1-medium-locale-either">Regin</xref></p></li>
         <li><p><xref ref="Q1-medium-locale-either">Anikrub</xref></p></li>
         <li><p><xref ref="Q1-medium-icri-correct">Ilam</xref></p></li>
-        <li><p><xref ref="Q1-medium-locale-idk">I don't know</xref></p></li>
+        <li><p><xref ref="Q1-medium-icri-correct">I don't know</xref></p></li>
       </ul>
     </p>
   </section>
@@ -652,43 +678,75 @@
     <title>Either - Medium Dataset</title>
     
     <p>
-      You say, <q>Either variety should work.</q>
+      You pause.
     </p>
 
     <p>
-      The farmer looks puzzled. <q>Really? You've been studying this for months and you can't tell me which is better?</q>
+      <q>Either one.</q>
     </p>
 
     <p>
-      They have a point. You do have data - you just need to use it properly.
+      The farmer narrows his eyes.
     </p>
 
     <p>
-      The issue is that <q>better</q> depends on context. In some regions, ICRI performs better. In others, Locale does.
+      <q>Either?</q>
     </p>
 
     <p>
-      You pull out your data and explain:
-      <ul>
-        <li><p>In Ilam, ICRI tends to yield more</p></li>
-        <li><p>In Anikrub and Regin, Locale performs as well or better</p></li>
-      </ul>
+      He shifts his weight. <q>We're in Ilam, you know.</q>
     </p>
 
     <p>
-      <q>So it depends where I'm farming?</q> the farmer asks.
+      You feel that small tightening in your stomach.
     </p>
 
     <p>
-      <q>Exactly,</q> you say.
+      With a larger dataset, you had thousands of farmers across all three countries. Patterns would be clearer – even if misleading at first glance.
     </p>
 
     <p>
-      This is an example of <alert>Simpson's Paradox</alert> - where aggregate data can hide important regional patterns.
+      But this time, you're working with several hundred farmers. Carefully sampled. Balanced. Manageable.
     </p>
 
     <p>
-      Now, which region is this farmer from?
+      But not enormous.
+    </p>
+
+    <p>
+      You pull out your notebook again.
+    </p>
+
+    <p>
+      Across the medium dataset, the overall difference between ICRI and Local is<ellipsis/> small.
+    </p>
+
+    <p>
+      Very small.
+    </p>
+
+    <p>
+      When you look at Ilam alone, the pattern seems to shift slightly.
+    </p>
+
+    <p>
+      But is that shift real?
+    </p>
+
+    <p>
+      Or is it noise?
+    </p>
+
+    <p>
+      You stare at the numbers. Does knowing this farmer is from Ilam change your answer?
+    </p>
+
+    <p>
+      The farmer waits.
+    </p>
+
+    <p>
+      What do you say?
       <ul>
         <li><p><xref ref="Q1-medium-icri">ICRI</xref></p></li>
         <li><p><xref ref="Q1-medium-locale">Locale</xref></p></li>
@@ -702,37 +760,38 @@
     <title>I Don't Know - Medium Dataset</title>
     
     <p>
-      You hesitate. <q>I need to look at the data more carefully before I can say.</q>
+      You stall.
     </p>
 
     <p>
-      The farmer nods but looks disappointed. <q>I understand. But I need to decide soon what to plant.</q>
+      <q>Well<ellipsis/> it sure is lovely weather here in Ilam today.</q>
     </p>
 
     <p>
-      After they leave, you sit down to analyze your data properly.
+      The farmer laughs.
     </p>
 
     <p>
-      <alert>The overall picture:</alert>
-      Across all regions, the average yields are fairly close, with ICRI slightly ahead overall.
+      <q>You statisticians.</q>
     </p>
 
     <p>
-      <alert>But when you break it down:</alert>
-      <ul>
-        <li><p>In Ilam: ICRI performs better</p></li>
-        <li><p>In Regin: Locale is slightly better</p></li>
-        <li><p>In Anikrub: Locale is clearly better</p></li>
-      </ul>
+      You realise avoidance won't help.
     </p>
 
-    <p>
-      The farmer was from Ilam.
-    </p>
+    <assemblage>
+      <p>
+        <alert>Advice:</alert>
+      </p>
+      <p>
+        Start by comparing average yield by variety.
+      </p>
+      <p>
+        Then break it down by region. This should lead you to your answer
+      </p>
+    </assemblage>
 
     <p>
-      What should you have recommended?
       <ul>
         <li><p><xref ref="Q1-medium-locale">Locale</xref></p></li>
         <li><p><xref ref="Q1-medium-icri-correct">ICRI</xref></p></li>
@@ -750,16 +809,19 @@
     </p>
 
     <p>
-      <alert>Step 1:</alert> Look at overall average yield by variety. You may find that ICRI looks slightly better overall.
+      <alert>Step 1:</alert> Look at overall average yield by variety. You may find that Locale looks better overall.
     </p>
 
     <p>
-      <alert>Step 2:</alert> Now break the data down by region. When you look at Ilam specifically, ICRI outperforms Locale.
+      <alert>Step 2:</alert> Now break the data down by region. When you look at Ilam specifically, ICRI outperforms Locale on average.
     </p>
 
     <p>
       <alert>What happened?</alert>
-      This is another example of how aggregated data can hide regional differences.
+    </p>
+
+    <p>
+      This is an example of how aggregated data can hide regional differences. The distribution of varieties across regions affects the overall average.
     </p>
 
     <p>
@@ -771,20 +833,21 @@
     </p>
 
     <p>
-      Continue to <xref ref="Q2-medium">Question 2</xref>.
+      Go to <xref ref="Q2-medium">Question 2</xref>.
     </p>
   </section>
 
-  <!-- Q1 Small Dataset -->
+  <!-- Q1 Small Dataset -->'
+
   <section xml:id="Q1-small">
     <title>Question 1 - Small Dataset</title>
     
     <p>
-      You're working intensively with a small group of farmers.
+      You arrive just before planting. The air is dry and hot, and farmers are already gathering in the shade. One of the farmers spots you, and comes running over.
     </p>
 
     <p>
-      One morning, a farmer approaches you. <q>Aminou, I've been watching the trials. What variety should I plant next season - ICRI or Locale?</q>
+      <q>Aminou! Thank goodness you're here. We've heard about your big study across the three countries. Everyone says you now have real evidence. So tell me - what variety should I plant?</q>
     </p>
 
     <p>
@@ -792,7 +855,7 @@
     </p>
 
     <p>
-      You have detailed data from this group, collected with care. So you sit down with them to give them some advice. What do you say?
+      You have the data and so you sit down with them to give them some advice. What do you say?
     </p>
 
     <p>
@@ -810,34 +873,45 @@
     <title>ICRI - Small Dataset</title>
     
     <p>
-      You say, <q>I'd recommend ICRI.</q>
+      You nod confidently, <q>Plant ICRI.</q>
     </p>
 
     <p>
-      The farmer nods but looks uncertain. <q>Really? My neighbor tried ICRI and it didn't do as well as his Locale plots.</q>
+      The farmer squints at you, <q>Hmm.</q> They're not convinced, and that plays on your mind.
     </p>
 
     <p>
-      That comment makes you pause. You go back and review your data more carefully.
+      Later that evening, as you sit reviewing the data more carefully, something unsettles you.
     </p>
 
     <p>
-      When you look at the overall average across all farmers in your study, ICRI does appear slightly better.
+      <q>Wait<ellipsis/> what?</q>
     </p>
 
     <p>
-      But this farmer is in Anikrub. When you filter your data to just Anikrub farms, you see that Locale actually outperforms ICRI in this region.
+      You flip back through your tables.
     </p>
 
     <p>
-      You may have given the wrong advice by relying on an overall average without considering regional context.
+      You would have expected that pattern somewhere else -- but do you expect that here in Anikrub?
     </p>
 
     <p>
-      Let's reconsider. The farmer is in Anikrub. What should you recommend?
+      The farmer comes back the next day.
+    </p>
+
+    <p>
+      <q>So<ellipsis/> are you sure?</q>
+    </p>
+
+    <p>
+      What do you say now?
+    </p>
+
+    <p>
       <ul>
         <li><p><xref ref="Q1-small-icri-icri">ICRI</xref></p></li>
-        <li><p><xref ref="Q1-small-icri-locale">Locale</xref></p></li>
+        <li><p><xref ref="Q1-small-locale-correct">Locale</xref></p></li>
         <li><p><xref ref="Q1-small-icri-either">Either</xref></p></li>
         <li><p><xref ref="Q1-small-icri-idk">I don't know</xref></p></li>
       </ul>
@@ -848,23 +922,34 @@
     <title>ICRI Again - Small Dataset</title>
     
     <p>
-      No, that's the same mistake repeated.
+      You double down, <q>Still ICRI.</q>
     </p>
 
     <p>
-      The farmer is in Anikrub. When you check the data for Anikrub specifically, Locale outperforms ICRI.
+      The farmer raises an eyebrow, <q>Do you work for this ICRI variety or something?</q>
     </p>
 
     <p>
-      You keep recommending ICRI based on an overall average that doesn't reflect the farmer's actual context.
+      You feel your face warm. That Anikrub sun is hot today.
     </p>
 
     <p>
-      This is <alert>Simpson's Paradox</alert>: the aggregate result doesn't match the subgroup patterns.
+      Time to slow down.
     </p>
 
+    <assemblage>
+      <p>
+        Hint: Have you looked at yield by region and variety?
+      </p>
+      <p>
+        Not just overall yield - but yield broken down by region as well as variety.
+      </p>
+      <p>
+        The data are not flat, they are layered. Try again.
+      </p>
+    </assemblage>
+
     <p>
-      Let's try once more. The farmer is in Anikrub. What should you recommend?
       <ul>
         <li><p><xref ref="Q1-small-help">ICRI</xref></p></li>
         <li><p><xref ref="Q1-small-locale-correct">Locale</xref></p></li>
@@ -878,15 +963,24 @@
     <title>Either - Small Dataset (After ICRI)</title>
     
     <p>
-      That's still not right.
+      <q>Either one should be fine.</q>
     </p>
 
     <p>
-      The data for Anikrub clearly shows that Locale outperforms ICRI. Saying <q>either</q> ignores the evidence.
+      The farmer frowns, <q>That doesn't sound very confident.</q>
     </p>
 
     <p>
-      Let's try again. The farmer is in Anikrub. What should you recommend?
+      The Anikrub sun is hot and you feel sweat going down your face. You realise you may be smoothing over something important.
+    </p>
+
+    <assemblage>
+      <p>
+        Hint: Look at yield by region and variety. Averages across countries can hide regional differences.
+      </p>
+    </assemblage>
+
+    <p>
       <ul>
         <li><p><xref ref="Q1-small-help">ICRI</xref></p></li>
         <li><p><xref ref="Q1-small-locale-correct">Locale</xref></p></li>
@@ -900,19 +994,34 @@
     <title>I Don't Know - Small Dataset (After ICRI)</title>
     
     <p>
-      You do have data to guide you.
+      You hesitate. <q>I<ellipsis/> need to check something.</q>
     </p>
 
     <p>
-      When you filter to Anikrub, the data clearly shows that Locale outperforms ICRI in this region.
+      You reopen your analysis.
     </p>
 
     <p>
-      Saying <q>I don't know</q> when you have clear evidence is avoiding your responsibility.
+      You suddenly notice that you've been looking at overall averages across all three countries.
     </p>
 
     <p>
-      Let's try again. The farmer is in Anikrub. What should you recommend?
+      But this farmer is in <alert>Anikrub</alert>, and the pattern here is not the same as the overall pattern from your data.
+    </p>
+
+    <assemblage>
+      <p>
+        Hint:
+      </p>
+      <p>
+        Filter the data to Anikrub.
+      </p>
+      <p>
+        Then compare yield by variety.
+      </p>
+    </assemblage>
+
+    <p>
       <ul>
         <li><p><xref ref="Q1-small-help">ICRI</xref></p></li>
         <li><p><xref ref="Q1-small-locale-correct">Locale</xref></p></li>
@@ -922,7 +1031,8 @@
     </p>
   </section>
 
-  <section xml:id="Q1-small-icri-locale">
+  <section xml:id="Q1-small-icri-locale">'
+
     <title>Correcting to Locale - Small Dataset</title>
     
     <p>
@@ -951,42 +1061,34 @@
   </section>
 
   <section xml:id="Q1-small-locale-correct">
-    <title>Locale - Small Dataset</title>
+    <title>Locale - Anikrub (Correct)</title>
     
     <p>
-      Excellent.
+      You smile. <q>For Anikrub? Plant the Local variety.</q>
     </p>
 
     <p>
-      You say, <q>For your farm here in Anikrub, I'd recommend Locale.</q>
+      The farmer nods slowly. <q>That makes sense. It's what many of us have been noticing.</q>
     </p>
 
     <p>
-      The farmer smiles. <q>That matches what I've been seeing. My neighbor's Locale plots look better than the ICRI ones.</q>
+      You feel relieved -- and slightly humbled.
     </p>
 
     <p>
-      <q>Exactly,</q> you reply. <q>And that's why it's important to look at local data, not just overall averages.</q>
+      Across the entire dataset, ICRI may look stronger on average. But when you break the data down by region, Anikrub tells a different story.
     </p>
 
     <p>
-      You've avoided a common statistical trap: <alert>Simpson's Paradox</alert>.
+      You've just discovered something important:
     </p>
 
     <p>
-      In this case:
-      <ul>
-        <li><p>If you had looked at overall averages across all regions, ICRI might have appeared better.</p></li>
-        <li><p>But when you focused on Anikrub specifically, Locale clearly outperformed.</p></li>
-      </ul>
+      Overall averages can mislead and the best decision can depend on context.
     </p>
 
     <p>
-      This happens because aggregate results can be biased by how data is distributed across subgroups.
-    </p>
-
-    <p>
-      By giving context-specific advice, you've provided real value to this farmer.
+      You turn the page in your notebook. This is more complicated than you thought.
     </p>
 
     <p>
@@ -995,30 +1097,26 @@
   </section>
 
   <section xml:id="Q1-small-locale">
-    <title>Locale - Small Dataset (Initial Choice)</title>
+    <title>Locale - Small Dataset</title>
     
     <p>
-      You nod confidently. <q>Plant Locale.</q>
+      You say confidently, <q>Locale.</q>
     </p>
 
     <p>
-      The farmer thanks you and starts to walk away, then pauses. <q>By the way, I heard from someone in another region that ICRI was supposed to be better overall. Are you sure Locale is right for me?</q>
+      The farmer smiles. <q>Interesting. That matches what some of us have seen.</q>
     </p>
 
     <p>
-      You pull out your data to double-check.
+      But then he tilts his head. <q>If you're so sure<ellipsis/> tell me this. In which region does Local outperform ICRI on average?</q>
     </p>
 
     <p>
-      Looking at all the data combined, ICRI does have a slightly higher average yield. But this farmer is in Anikrub, and when you filter to just Anikrub, Locale clearly performs better.
+      Now it's your turn to think.
     </p>
 
     <p>
-      This is an example of <alert>Simpson's Paradox</alert> - where overall averages can mislead when subgroup patterns differ.
-    </p>
-
-    <p>
-      The farmer is in Anikrub. Which region's data matters most for your recommendation?
+      <alert>Option:</alert>
       <ul>
         <li><p><xref ref="Q1-small-icri-either">Regin</xref></p></li>
         <li><p><xref ref="Q1-small-icri-either">Ilam</xref></p></li>
@@ -1032,39 +1130,75 @@
     <title>Either - Small Dataset</title>
     
     <p>
-      You say, <q>Either variety should work.</q>
+      You pause.
     </p>
 
     <p>
-      The farmer frowns. <q>That's not helpful. I need to decide which seeds to buy this week.</q>
+      <q>Either one.</q>
     </p>
 
     <p>
-      They're right. You have data - you need to use it.
+      The farmer narrows his eyes.
     </p>
 
     <p>
-      You pull out your notebook and look more carefully.
+      <q>Either?</q>
     </p>
 
     <p>
-      <alert>Overall:</alert> ICRI has a slightly higher average yield across all the farms you've studied.
+      He shifts his weight. <q>We're in Anikrub, you know.</q>
     </p>
 
     <p>
-      <alert>But in Anikrub:</alert> Locale clearly outperforms ICRI.
+      You feel that small tightening in your stomach.
     </p>
 
     <p>
-      The farmer is in Anikrub.
+      With a larger dataset, you had thousands of farmers across all three countries. Patterns would be clearer – even if misleading at first glance.
     </p>
 
     <p>
-      This is an example of <alert>Simpson's Paradox</alert> - where aggregate data hides important subgroup patterns.
+      But this time, you're working with several hundred farmers. Carefully sampled. Balanced. Manageable.
     </p>
 
     <p>
-      Now, what do you recommend?
+      But not enormous.
+    </p>
+
+    <p>
+      You pull out your notebook again.
+    </p>
+
+    <p>
+      Across the medium dataset, the overall difference between ICRI and Local is<ellipsis/> small.
+    </p>
+
+    <p>
+      Very small.
+    </p>
+
+    <p>
+      When you look at Anikrub alone, the pattern seems to shift slightly.
+    </p>
+
+    <p>
+      But is that shift real?
+    </p>
+
+    <p>
+      Or is it noise?
+    </p>
+
+    <p>
+      You stare at the numbers. Does knowing this farmer is from Anikrub change your answer?
+    </p>
+
+    <p>
+      The farmer waits.
+    </p>
+
+    <p>
+      What do you say?
       <ul>
         <li><p><xref ref="Q1-small-icri">ICRI</xref></p></li>
         <li><p><xref ref="Q1-small-locale">Locale</xref></p></li>
@@ -1078,36 +1212,38 @@
     <title>I Don't Know - Small Dataset</title>
     
     <p>
-      You hesitate. <q>The data is complex. I need more time to analyze it.</q>
+      You stall.
     </p>
 
     <p>
-      The farmer sighs. <q>I've been working with you for months. Surely you know something by now?</q>
+      <q>Well<ellipsis/> it sure is lovely weather here in Anikrub today.</q>
     </p>
 
     <p>
-      They're right. Let's look at what you do know.
+      The farmer laughs.
     </p>
 
     <p>
-      <alert>Overall average:</alert> Across all farms, ICRI has a slightly higher yield.
+      <q>You statisticians.</q>
     </p>
 
     <p>
-      <alert>But by region:</alert>
-      <ul>
-        <li><p>In Ilam: ICRI is better</p></li>
-        <li><p>In Regin: Locale is slightly better</p></li>
-        <li><p>In Anikrub: Locale is clearly better</p></li>
-      </ul>
+      You realise avoidance won't help.
     </p>
 
-    <p>
-      The farmer is in Anikrub.
-    </p>
+    <assemblage>
+      <p>
+        <alert>Advice:</alert>
+      </p>
+      <p>
+        Start by comparing average yield by variety.
+      </p>
+      <p>
+        Then break it down by region. This should lead you to your answer
+      </p>
+    </assemblage>
 
     <p>
-      What should you recommend?
       <ul>
         <li><p><xref ref="Q1-small-icri">ICRI</xref></p></li>
         <li><p><xref ref="Q1-small-locale-correct">Locale</xref></p></li>
@@ -1129,11 +1265,14 @@
     </p>
 
     <p>
-      <alert>Step 2:</alert> Now break the data down by region. When you look at Anikrub specifically, Locale outperforms ICRI on average.
+      <alert>Step 2:</alert> Now break the data down by region. When you look at Anikrub specifically, Local outperforms ICRI on average.
     </p>
 
     <p>
       <alert>What happened?</alert>
+    </p>
+
+    <p>
       This is an example of how aggregated data can hide regional differences. The distribution of varieties across regions affects the overall average.
     </p>
 
@@ -1146,8 +1285,9 @@
     </p>
 
     <p>
-      Continue to <xref ref="Q2-small">Question 2</xref>.
+      Go to <xref ref="Q2-small">Question 2</xref>.
     </p>
   </section>
 
 </chapter>
+
