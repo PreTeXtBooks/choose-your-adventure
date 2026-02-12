@@ -843,11 +843,11 @@
     <title>Question 1 - Small Dataset</title>
     
     <p>
-      You arrive just before planting. The air is dry and hot, and farmers are already gathering in the shade. One of the farmers spots you, and comes running over.
+      You're working intensively with a small group of farmers.
     </p>
 
     <p>
-      <q>Aminou! Thank goodness you're here. We've heard about your big study across the three countries. Everyone says you now have real evidence. So tell me - what variety should I plant?</q>
+      One morning, a farmer approaches you. <q>Aminou, I've been watching the trials. What variety should I plant next season - ICRI or Locale?</q>
     </p>
 
     <p>
@@ -855,11 +855,10 @@
     </p>
 
     <p>
-      You have the data and so you sit down with them to give them some advice. What do you say?
+      You have detailed data from this group, collected with care. So you sit down with them to give them some advice. What do you say?
     </p>
 
     <p>
-      <alert>Choose your answer:</alert>
       <ul>
         <li><p><xref ref="Q1-small-icri">ICRI</xref></p></li>
         <li><p><xref ref="Q1-small-locale">Locale</xref></p></li>
