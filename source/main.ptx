@@ -278,55 +278,33 @@
         <p>
           You chose the Big Survey.
         </p>
-
-        <p>
-          You decide to aim for national representativeness. This means gathering data from thousands of farmers across all three countries: Ilam, Regin, and Anikrub. The scale will be ambitious, but the results could carry real political weight.
+<p>
+This means gathering data from thousands of farmers across all three countries: Ilam, Regin, and Anikrub. The scale will be ambitious, but the results could carry real weight.
         </p>
-
         <p>
-          You open your laptop and begin drafting the proposal.
+You begin drafting the proposal.
         </p>
-
         <p>
-          <alert>Sample Size:</alert> You plan to recruit 3,000 farmers — 1,000 in each country. With each farmer managing 6 plots, that means 18,000 observations in total. It feels large enough to capture variation across regions, soil types, and farmer characteristics.
+Sample Size: You plan to recruit 240,000 farmers with each farmer managing 6 plots. It feels large enough to capture variation across regions, soil types, and farmer characteristics.
         </p>
-
         <p>
-          <alert>Sampling Strategy:</alert> You will work with national agricultural ministries to obtain lists of registered farmers in each country. From these lists, you will randomly sample farmers across different regions to ensure geographic representation.
+You will work with national agricultural ministries to obtain lists of registered farmers in each country. From these lists, you will randomly sample farmers across different regions to ensure geographic representation. As you write, you feel the weight of logistical complexity settling in.
         </p>
-
         <p>
-          But as you write, you feel the weight of logistical complexity settling in.
+With this many farmers, you will need a large team of enumerators — people trained to collect data in the field. They will need to be hired, trained, and supervised. Quality control becomes critical. How do you ensure that data collection is consistent across three countries, each with different languages, cultures, and agricultural systems?
         </p>
-
         <p>
-          With 3,000 farmers, you will need a large team of enumerators — people trained to collect data in the field. They will need to be hired, trained, and supervised. Quality control becomes critical. How do you ensure that data collection is consistent across three countries, each with different languages, cultures, and agricultural systems?
+[TODO: Insert Podcast of me and David on enumerators / variety that they can add? Or background info on that.]
         </p>
-
         <p>
-          You also know that large surveys often sacrifice depth for breadth. With so many farmers to visit, your team will have limited time with each one. Data collection might become mechanical — a checklist to complete rather than a conversation to have.
+You also know that large surveys often sacrifice depth for breadth. With so many farmers to visit, your team will have limited time with each one. Data collection might become mechanical — a checklist to complete rather than a conversation to have. And then there's the cost. You estimate the budget: enumerators, transport, training, data management systems. The numbers climb quickly. Funding agencies will want to see strong justification for this level of investment.
         </p>
-
         <p>
-          And then there's the cost. You estimate the budget: enumerators, transport, training, data management systems. The numbers climb quickly. Funding agencies will want to see strong justification for this level of investment.
+Still, if you can pull it off, the results will be nationally representative. Policymakers will be able to say with confidence: “These findings apply to our country as a whole.” That kind of credibility could influence national agricultural policy across the region.
         </p>
-
         <p>
-          Still, if you can pull it off, the results will be nationally representative. Policymakers will be able to say with confidence: <q>These findings apply to our country as a whole.</q> That kind of credibility could influence national agricultural policy across the region.
+You pause and consider the trade-offs carefully. The proposal is approved. The data collection begins. Months pass. The data flows in. And finally, you have your dataset. Now it's time to put that data to use!        </p>
         </p>
-
-        <p>
-          You pause and consider the trade-offs carefully.
-        </p>
-
-        <p>
-          The proposal is approved. The data collection begins. Months pass. The data flows in. And finally, you have your dataset.
-        </p>
-
-        <p>
-          Now it's time to put that data to use.
-        </p>
-
         <p>
           Continue to <xref ref="Q1-large">Question 1</xref>.
         </p>
