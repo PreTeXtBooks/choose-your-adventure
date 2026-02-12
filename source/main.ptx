@@ -100,344 +100,223 @@
       </introduction>
 
       <section xml:id="section-start">
-        <title>The Data Detective</title>
+        <title>The Consultant's Call</title>
         
         <p>
-          You are a data detective who has been hired to investigate patterns 
-          in city crime data. Your client has given you a dataset with the 
-          following information:
-        </p>
-
-        <table xml:id="table-crime-data">
-          <title>Sample Crime Data (Last 7 Days)</title>
-          <tabular>
-            <row header="yes">
-              <cell>Day</cell>
-              <cell>Number of Incidents</cell>
-            </row>
-            <row>
-              <cell>Monday</cell>
-              <cell>12</cell>
-            </row>
-            <row>
-              <cell>Tuesday</cell>
-              <cell>15</cell>
-            </row>
-            <row>
-              <cell>Wednesday</cell>
-              <cell>18</cell>
-            </row>
-            <row>
-              <cell>Thursday</cell>
-              <cell>14</cell>
-            </row>
-            <row>
-              <cell>Friday</cell>
-              <cell>22</cell>
-            </row>
-            <row>
-              <cell>Saturday</cell>
-              <cell>25</cell>
-            </row>
-            <row>
-              <cell>Sunday</cell>
-              <cell>20</cell>
-            </row>
-          </tabular>
-        </table>
-
-        <p>
-          Your client wants to know: <q>What is the average number of crime 
-          incidents per day?</q>
+          You are Aminou, a researcher in statistics.
         </p>
 
         <p>
-          <alert>Your task:</alert> Calculate the mean (average) number of 
-          incidents per day. Once you have your answer, choose the link below 
-          that matches your result.
+          But you are not the kind of statistician who hides behind a laptop or speaks only in equations. You know that data begins with people, so you work on the ground with farmers. You sit under mango trees during long afternoon meetings, drinking small (but very strong) cups of tea and listening carefully. You occasionally argue (politely) with government officials in offices where the air hums with ceiling fans and policy ambition.
         </p>
 
         <p>
-          <em>Work out the answer on your own, then return here to continue.</em>
+          For the past few years, you have been working with small groups of millet farmers in one region. Together, you tested different innovations: alternative weeding methods that reduced labour time, adjustments to planting densities to make better use of limited rainfall, and soil-based fertility treatments inspired by local practices. Some ideas came from research papers. Others came from farmers themselves - practices they had been experimenting with quietly for years.
+          <alert>[TODO: Insert real West African RMS example here.]</alert>
         </p>
 
         <p>
-          <alert>Choose your answer:</alert>
+          You didn't just <q>apply</q> research. You co-designed it. You began with their questions:
+        </p>
+
+        <p>
+          <em>Why does this field yield less than that one?</em>
+        </p>
+        <p>
+          <em>Why does this method work for my neighbour but not for me?</em>
+        </p>
+
+        <p>
+          You listened first. You adapted. You revised your plans when they explained that nothing could be changed during harvest season, or that labour shortages made certain methods unrealistic. You learned that good design is as much about timing and trust as it is about treatments and controls.
+        </p>
+
+        <p>
+          The results were promising. Yields improved across the region. Labour requirements dropped. Farmers became curious - not because of spreadsheets or graphs, but because they saw the differences with their own eyes. For them, evidence was what grew in their fields.
+        </p>
+
+        <p>
+          And now, things are changing.
+        </p>
+
+        <p>
+          What began as a local collaboration is becoming something bigger. Officials in neighbouring regions have heard about your work. NGOs have cited your small trials in reports. Ministries are asking whether these innovations should be promoted nationally.
+        </p>
+
+        <p>
+          You are being asked to scale up across three neighbouring countries: Ilam, Regin, and Anikrub.
+        </p>
+
+        <p>
+          All three grow millet as a staple crop. Their soils are broadly similar, and their climate zones overlap - but they are not the same country.
+        </p>
+
+        <p>
+          Ilam has longer dry spells.
+          Regin has strong farmer cooperatives.
+          Anikrub has more direct government involvement in agriculture.
+        </p>
+
+        <p>
+          Culturally, politically, and socially, they differ. Their attitudes toward innovation differ. Their labour practices differ. The way decisions are made differs. You know immediately that whatever worked in one place will not simply copy and paste into another.
+        </p>
+
+        <p>
+          Government ministries, NGOs, and farmer groups are watching. Everyone wants evidence.
+        </p>
+
+        <p>
+          So today, you sit again under your mango tree, sipping your especially strong tea, turning the problem over in your mind. A proposal deadline is approaching.
+        </p>
+
+        <p>
+          You need to decide: <alert>How much data should you collect?</alert>
+        </p>
+
+        <p>
+          And you know the data will not be simple.
+        </p>
+
+        <p>
+          Even within a single region, farmers and their farms differ. Some have sandy soils that drain quickly; others have clay soils that hold water. Even within the same country, soil type can quietly change what <q>works.</q> Farmers themselves differ too. Some are women. Some are men. You have seen before that access to labour, tools, and decision-making power can influence outcomes in subtle but important ways.
+        </p>
+
+        <p>
+          And then there are the plots.
+        </p>
+
+        <p>
+          Each farmer has six plots. Six small experiments, side by side, exposed to the same weather — but not always the same management.
+        </p>
+
+        <p>
+          On each plot, farmers can decide:
           <ul>
-            <li><p>If you calculated the mean as <m>16</m> incidents per day, go to <xref ref="section-wrong-16"/>.</p></li>
-            <li><p>If you calculated the mean as <m>18</m> incidents per day, go to <xref ref="section-correct-18"/>.</p></li>
-            <li><p>If you calculated the mean as <m>20</m> incidents per day, go to <xref ref="section-wrong-20"/>.</p></li>
-            <li><p>If you got a different answer or need help, go to <xref ref="section-hint-mean"/>.</p></li>
+            <li><p>Which millet variety to plant (ICRI or Local)</p></li>
+            <li><p>Whether to use zai pits for water harvesting</p></li>
+            <li><p>Which weeding method to apply</p></li>
+          </ul>
+        </p>
+
+        <p>
+          They might plant one variety on all six plots.
+          Or split three and three.
+          They might use zai pits on four plots but not the other two.
+          They might test a new weeding method on only half their land.
+        </p>
+
+        <p>
+          At the end of the season, what you measure is simple: Yield.
+        </p>
+
+        <p>
+          But you already know something important. Yield is never just about one thing.
+        </p>
+
+        <p>
+          It is shaped by region, farmer characteristics, soil type, plot differences, and the three treatments: variety, zai, and weeding method. And sometimes by things you didn't even measure.
+        </p>
+
+        <p>
+          Some of these factors you can influence, and some you cannot control at all. But if you ignore them, they may quietly distort your results.
+        </p>
+
+        <p>
+          You take another sip of tea.
+        </p>
+
+        <p>
+          Suddenly the question of <q>How much data?</q> feels heavier.
+        </p>
+
+        <p>
+          Because the more variation there is, the more carefully you must design the study to account for it.
+        </p>
+
+        <p>
+          Now the choice is not just about size.
+        </p>
+
+        <p>
+          It is about complexity.
+          About credibility.
+          About trust.
+        </p>
+
+        <p>
+          If you choose a Big Survey, you will gather data from thousands of farmers across all three countries. The results could be nationally representative and politically persuasive, but the study would be expensive, complex, and harder to manage carefully.
+        </p>
+
+        <p>
+          If you choose a Medium Survey, you will work with several hundred farmers, carefully sampled across regions. It could offer a balance between depth and breadth, but it may fall into an uncomfortable middle ground. Too small to feel nationally definitive, yet too large to build the deep relationships of a truly participatory study.
+        </p>
+
+        <p>
+          If you choose a Small Study, you will work intensively with a smaller number of farmers. You will gain rich insight and strong engagement, but your findings may be questioned for lacking representativeness.
+        </p>
+
+        <p>
+          You finish your tea.
+        </p>
+
+        <p>
+          The decision will shape everything that follows.
+        </p>
+
+        <p>
+          <alert>What do you choose?</alert>
+          <ul>
+            <li><p><xref ref="section-big-q1">Big Survey</xref></p></li>
+            <li><p><xref ref="section-medium-q1">Medium Survey</xref></p></li>
+            <li><p><xref ref="section-small-q1">Small Study</xref></p></li>
           </ul>
         </p>
       </section>
 
-      <section xml:id="section-wrong-16">
-        <title>Not Quite Right</title>
+      <section xml:id="section-big-q1">
+        <title>Big Survey - The National Approach</title>
         
         <p>
-          You calculated <m>16</m> incidents per day, but let's check your work.
+          You chose the Big Survey.
         </p>
 
         <p>
-          The mean (average) is calculated by adding all values and dividing by 
-          the number of values:
-          <me>
-            \text{Mean} = \frac{12 + 15 + 18 + 14 + 22 + 25 + 20}{7}
-          </me>
+          [Content for Big Survey path to be added - this will continue the story exploring the implications of choosing a large-scale nationally representative survey across all three countries.]
         </p>
 
         <p>
-          Let's add these up: <m>12 + 15 + 18 + 14 + 22 + 25 + 20 = 126</m>
-        </p>
-
-        <p>
-          Then divide by 7: <m>126 \div 7 = 18</m>
-        </p>
-
-        <p>
-          The correct answer is <m>18</m> incidents per day. Perhaps you made 
-          an arithmetic error in your addition or division.
-        </p>
-
-        <p>
-          Now that you understand, continue to <xref ref="section-correct-18"/> 
-          to proceed with your investigation.
+          <alert>To be continued...</alert>
         </p>
       </section>
 
-      <section xml:id="section-correct-18">
-        <title>Excellent Work!</title>
+      <section xml:id="section-medium-q1">
+        <title>Medium Survey - The Balanced Approach</title>
         
         <p>
-          <alert>Correct!</alert> You calculated the mean as <m>18</m> incidents 
-          per day. Well done!
+          You chose the Medium Survey.
         </p>
 
         <p>
-          Let's verify: The sum of all incidents is <m>12 + 15 + 18 + 14 + 22 + 25 + 20 = 126</m>, 
-          and <m>126 \div 7 = 18</m> incidents per day.
+          [Content for Medium Survey path to be added - this will continue the story exploring the implications of choosing a medium-scale survey with several hundred farmers across regions.]
         </p>
 
         <p>
-          Your client is impressed with your quick analysis. Now they want to 
-          dig deeper. They ask: <q>What's the median number of incidents? And 
-          how does it compare to the mean?</q>
-        </p>
-
-        <p>
-          <alert>Your next task:</alert> Find the median (the middle value when 
-          the data is arranged in order) for the same dataset.
-        </p>
-
-        <p>
-          <em>Arrange the values in order and find the middle value, then return here.</em>
-        </p>
-
-        <p>
-          <alert>What's the median?</alert>
-          <ul>
-            <li><p>If you found the median to be <m>15</m>, go to <xref ref="section-wrong-median-15"/>.</p></li>
-            <li><p>If you found the median to be <m>18</m>, go to <xref ref="section-correct-median-18"/>.</p></li>
-            <li><p>If you found the median to be <m>20</m>, go to <xref ref="section-wrong-median-20"/>.</p></li>
-            <li><p>If you need help understanding median, go to <xref ref="section-hint-median"/>.</p></li>
-          </ul>
+          <alert>To be continued...</alert>
         </p>
       </section>
 
-      <section xml:id="section-wrong-20">
-        <title>Check Your Calculation</title>
+      <section xml:id="section-small-q1">
+        <title>Small Study - The In-Depth Approach</title>
         
         <p>
-          You calculated <m>20</m> incidents per day. Let's work through this together.
+          You chose the Small Study.
         </p>
 
         <p>
-          To find the mean, we need to:
-          <ol>
-            <li><p>Add all the values together</p></li>
-            <li><p>Divide by the number of values (7 days)</p></li>
-          </ol>
+          [Content for Small Study path to be added - this will continue the story exploring the implications of choosing an intensive study with a smaller number of farmers.]
         </p>
 
         <p>
-          Sum: <m>12 + 15 + 18 + 14 + 22 + 25 + 20 = 126</m>
-        </p>
-
-        <p>
-          Mean: <m>126 \div 7 = 18</m>
-        </p>
-
-        <p>
-          The correct mean is <m>18</m> incidents per day, not <m>20</m>. 
-          Perhaps you looked at Sunday's value (<m>20</m>) instead of calculating 
-          the average?
-        </p>
-
-        <p>
-          Continue to <xref ref="section-correct-18"/> to move forward.
-        </p>
-      </section>
-
-      <section xml:id="section-hint-mean">
-        <title>Understanding the Mean</title>
-        
-        <p>
-          The <term>mean</term> (or <term>average</term>) is one of the most 
-          common measures of central tendency in statistics.
-        </p>
-
-        <definition xml:id="def-mean">
-          <title>Mean</title>
-          <statement>
-            <p>
-              The mean of a dataset is calculated by adding all values together 
-              and dividing by the number of values:
-              <me>
-                \bar{x} = \frac{x_1 + x_2 + x_3 + \cdots + x_n}{n}
-              </me>
-              where <m>n</m> is the number of data points.
-            </p>
-          </statement>
-        </definition>
-
-        <p>
-          For our crime data, we have 7 days, so <m>n = 7</m>. Add all the 
-          incident counts and divide by 7.
-        </p>
-
-        <p>
-          Try the calculation again, then return to <xref ref="section-start"/> 
-          to select your answer.
-        </p>
-      </section>
-
-      <section xml:id="section-wrong-median-15">
-        <title>Median Attempt - Not Quite</title>
-        
-        <p>
-          You found <m>15</m> as the median. Let's review the process.
-        </p>
-
-        <p>
-          To find the median, first arrange the values in order:
-          <me>12, 14, 15, 18, 20, 22, 25</me>
-        </p>
-
-        <p>
-          With 7 values (an odd number), the median is the middle value - 
-          the 4th value in the ordered list.
-        </p>
-
-        <p>
-          Counting from the left: 12 (1st), 14 (2nd), 15 (3rd), <alert>18 (4th)</alert>, 
-          20 (5th), 22 (6th), 25 (7th).
-        </p>
-
-        <p>
-          The median is <m>18</m>. The value <m>15</m> is the 3rd value, not the middle.
-        </p>
-
-        <p>
-          Continue to <xref ref="section-correct-median-18"/>.
-        </p>
-      </section>
-
-      <section xml:id="section-correct-median-18">
-        <title>Great Statistical Thinking!</title>
-        
-        <p>
-          <alert>Correct!</alert> The median is <m>18</m> incidents per day.
-        </p>
-
-        <p>
-          Ordered data: <m>12, 14, 15, 18, 20, 22, 25</m>
-        </p>
-
-        <p>
-          The middle value (4th out of 7) is <m>18</m>.
-        </p>
-
-        <p>
-          Interesting observation: In this dataset, the mean and median are both 
-          <m>18</m>! This suggests the data is fairly symmetric.
-        </p>
-
-        <p>
-          Your client is pleased with your analysis. You've successfully completed 
-          your first statistical investigation!
-        </p>
-
-        <p>
-          <alert>Ready for more adventures?</alert> Additional chapters with new 
-          scenarios will be added here. Check back soon for:
-          <ul>
-            <li><p>Chapter 2: The Mystery of the Missing Data</p></li>
-            <li><p>Chapter 3: Correlation or Coincidence?</p></li>
-            <li><p>Chapter 4: The Probability Puzzle</p></li>
-          </ul>
-        </p>
-      </section>
-
-      <section xml:id="section-wrong-median-20">
-        <title>Median Check</title>
-        
-        <p>
-          You found <m>20</m> as the median. Let's verify this.
-        </p>
-
-        <p>
-          First, arrange all values in ascending order:
-          <me>12, 14, 15, 18, 20, 22, 25</me>
-        </p>
-
-        <p>
-          For an odd number of values (we have 7), the median is the middle value. 
-          Count to find the 4th value (since <m>(7+1)/2 = 4</m>).
-        </p>
-
-        <p>
-          The 4th value is <m>18</m>, not <m>20</m>. The value <m>20</m> is 
-          actually the 5th value in the ordered list.
-        </p>
-
-        <p>
-          Continue to <xref ref="section-correct-median-18"/> with the correct answer.
-        </p>
-      </section>
-
-      <section xml:id="section-hint-median">
-        <title>Understanding the Median</title>
-        
-        <p>
-          The <term>median</term> is another measure of central tendency that 
-          represents the middle value of a dataset.
-        </p>
-
-        <definition xml:id="def-median">
-          <title>Median</title>
-          <statement>
-            <p>
-              The median is the middle value when data is arranged in order. 
-              <ul>
-                <li><p>If there's an odd number of values, the median is the middle value.</p></li>
-                <li><p>If there's an even number of values, the median is the average of the two middle values.</p></li>
-              </ul>
-            </p>
-          </statement>
-        </definition>
-
-        <p>
-          For our crime data with 7 values:
-          <ol>
-            <li><p>Arrange in order: <m>12, 14, 15, 18, 20, 22, 25</m></p></li>
-            <li><p>Find the middle position: <m>(7+1)/2 = 4</m></p></li>
-            <li><p>The 4th value is the median</p></li>
-          </ol>
-        </p>
-
-        <p>
-          Try again, then return to <xref ref="section-correct-18"/> to select your answer.
+          <alert>To be continued...</alert>
         </p>
       </section>
 
