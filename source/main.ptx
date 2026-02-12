@@ -273,7 +273,7 @@
       </section>
 
       <section xml:id="section-big-q1">
-        <title>Big Survey - The National Approach</title>
+        <title>Big Survey</title>
         
         <p>
           You chose the Big Survey.
@@ -311,58 +311,37 @@ You pause and consider the trade-offs carefully. The proposal is approved. The d
       </section>
 
       <section xml:id="section-medium-q1">
-        <title>Medium Survey - The Balanced Approach</title>
+        <title>Medium Survey</title>
         
         <p>
           You chose the Medium Survey.
         </p>
-
-        <p>
-          You decide on a middle path — not as large as a national survey, but broader than your previous small-scale work. This approach aims to balance statistical power with manageable logistics and deeper farmer engagement.
-        </p>
-
-        <p>
-          You sketch out the plan in your notebook.
-        </p>
-
-        <p>
-          <alert>Sample Size:</alert> You will work with approximately 600 farmers — 200 in each country. With 6 plots per farmer, that gives you 3,600 observations. It's substantial, but still small enough that your team can maintain quality control.
-        </p>
-
-        <p>
-          <alert>Sampling Strategy:</alert> Rather than sampling nationally, you will focus on specific regions within each country — areas where millet farming is most important and where the innovations you're testing are most relevant. Within these regions, you will stratify your sample by soil type and farmer gender to ensure you capture key sources of variation.
-        </p>
-
-        <p>
-          This approach feels more manageable. You can hire a smaller team of enumerators — perhaps 10-15 people in total — and you can train them more thoroughly. With fewer farmers to visit, your team can spend more time at each farm, building relationships and ensuring data quality.
-        </p>
-
-        <p>
-          But you feel a nagging uncertainty.
-        </p>
-
-        <p>
-          The sample size sits in an uncomfortable middle ground. It's not large enough to claim full national representativeness — critics might argue that your findings don't apply to the whole country. Yet it's also not small enough to justify the deep, participatory approach you used in your earlier work. With 600 farmers, you can't co-design every detail or spend months building trust in each community.
-        </p>
-
-        <p>
-          You're essentially making a compromise: somewhat representative, somewhat engaged — but neither fully.
-        </p>
-
-        <p>
-          On the other hand, this middle path might be the most pragmatic. It allows you to say something meaningful about regional patterns while keeping costs reasonable. And it still gives you enough flexibility to adapt your methods if needed.
-        </p>
-
-        <p>
-          You wonder whether "balanced" is the right word — or whether you're simply splitting the difference.
-        </p>
-
-        <p>
-          The proposal is approved. The data collection begins. Months pass. The data flows in. And finally, you have your dataset.
-        </p>
-
-        <p>
-          Now it's time to put that data to use.
+<p>
+You decide on a middle path — not as large as a national survey, but broader than your previous small-scale work. This approach aims to balance statistical power with manageable logistics and deeper farmer engagement.
+</p>
+<p>
+You sketch out the plan in your notebook.
+</p>
+<p>
+Sample Size: You will work with approximately 24,000 farmers — 8,000 in each country. With 6 plots per farmer, that gives you 144,000 observations. It's substantial, but you can maintain quality control.
+</p>
+<p>
+Rather than sampling nationally, you will focus on specific regions within each country — areas where millet farming is most important and where the innovations you're testing are most relevant. Within these regions, you will stratify your sample by soil type and farmer gender to ensure you capture key sources of variation.
+</p>
+<p>
+[TODO: Put in podcast with David on enumerators/variability that can add?]
+</p>
+<p>
+This approach feels more manageable. You can hire a smaller team of enumerators and you can train them more thoroughly. With fewer farmers to visit, your team can spend more time at each farm, building relationships and ensuring data quality.
+</p>
+<p>
+But you feel a nagging uncertainty. What if your findings don't apply to the whole country. Yet, it's not small enough to justify the deep, participatory approach you used in your earlier work. With this many farmers, you can't co-design every detail or spend months building trust in each community.
+</p>
+<p>
+You're essentially making a compromise: somewhat representative, somewhat engaged — but neither fully. On the other hand, this middle path might be the most pragmatic. It allows you to say something meaningful about regional patterns while keeping costs reasonable. And it still gives you enough flexibility to adapt your methods if needed.
+</p>
+<p>
+The proposal is approved. The data collection begins. Months pass. The data flows in. And finally, you have your dataset. Now it's time to put that data to use.
         </p>
 
         <p>
@@ -371,62 +350,46 @@ You pause and consider the trade-offs carefully. The proposal is approved. The d
       </section>
 
       <section xml:id="section-small-q1">
-        <title>Small Study - The In-Depth Approach</title>
+        <title>Small Study</title>
         
         <p>
-          You chose the Small Study.
+          You chose the Small Study. 
         </p>
 
         <p>
-          You decide to stay close to the approach that has worked for you before: intensive, participatory work with a smaller number of farmers. This isn't about claiming national representativeness. It's about understanding deeply — and doing it right.
+You decide to stay close to the approach that has worked for you before: intensive, participatory work with a smaller number of farmers. This isn't about claiming national representativeness. It's about understanding deeply — and doing it right. You pull out your notebook and begin planning.
         </p>
 
         <p>
-          You pull out your notebook and begin planning.
+Sample Size: You will work with approximately 240 farmers — 80 in each country. With 6 plots per farmer, that gives you 1440 observations. It's modest by survey standards, but it's enough to detect meaningful patterns if the effects are real.
         </p>
 
         <p>
-          <alert>Sample Size:</alert> You will work with approximately 120 farmers — 40 in each country. With 6 plots per farmer, that gives you 720 observations. It's modest by survey standards, but it's enough to detect meaningful patterns if the effects are real.
+You won't sample randomly from national lists. Instead, you will select specific communities in each country — places where you already have relationships or where local partners can help you build trust. Within these communities, you will work closely with farmer groups to identify participants who are genuinely interested in experimenting with new practices.
         </p>
 
         <p>
-          <alert>Sampling Strategy:</alert> You won't sample randomly from national lists. Instead, you will select specific communities in each country — places where you already have relationships or where local partners can help you build trust. Within these communities, you will work closely with farmer groups to identify participants who are genuinely interested in experimenting with new practices.
+This approach feels familiar. It allows you to do what you do best: co-design the study with farmers, adapt to local realities, and build the kind of trust that leads to high-quality data.
         </p>
 
         <p>
-          This approach feels familiar. It allows you to do what you do best: co-design the study with farmers, adapt to local realities, and build the kind of trust that leads to high-quality data.
+You'll be able to visit each farm multiple times during the season. You'll see the plots yourself. You'll sit down with farmers, listen to their observations, and understand not just what happened, but why they think it happened. That contextual knowledge often matters more than statistical precision alone.
         </p>
 
         <p>
-          You'll be able to visit each farm multiple times during the season. You'll see the plots yourself. You'll sit down with farmers, listen to their observations, and understand not just <em>what</em> happened, but <em>why</em> they think it happened. That contextual knowledge often matters more than statistical precision alone.
+But you know the criticism you'll face. With only 240 farmers, selected purposively rather than randomly, your findings won't be nationally representative. Skeptics will say: “This worked in these specific communities, but we can't generalize to the whole country.” Policymakers who want definitive answers might dismiss your work as “just a pilot study.” And yet, you've seen how powerful small, well-designed studies can be. They generate insights that large surveys miss. They identify mechanisms, not just averages. And when farmers see results in their own fields — not in a distant research station — that's when change actually happens.
         </p>
 
         <p>
-          But you know the criticism you'll face.
+You take another sip of tea, now cool, and feel confident in your choice. Sometimes, depth matters more than breadth.
         </p>
 
         <p>
-          With only 120 farmers, selected purposively rather than randomly, your findings won't be nationally representative. Skeptics will say: <q>This worked in these specific communities, but we can't generalize to the whole country.</q> Policymakers who want definitive answers might dismiss your work as <q>just a pilot study.</q>
+The proposal is approved. The data collection begins. Months pass. The data flows in. And finally, you have your dataset.
         </p>
 
         <p>
-          And yet, you've seen how powerful small, well-designed studies can be. They generate insights that large surveys miss. They identify mechanisms, not just averages. And when farmers see results in their own fields — not in a distant research station — that's when change actually happens.
-        </p>
-
-        <p>
-          You take another sip of tea, now cool, and feel confident in your choice.
-        </p>
-
-        <p>
-          Sometimes, depth matters more than breadth.
-        </p>
-
-        <p>
-          The proposal is approved. The data collection begins. Months pass. The data flows in. And finally, you have your dataset.
-        </p>
-
-        <p>
-          Now it's time to put that data to use.
+Now it's time to put that data to use.
         </p>
 
         <p>
