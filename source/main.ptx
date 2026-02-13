@@ -111,6 +111,7 @@
         </p>
 
         <image source="images/aminou_tree.png" width="70%">
+          <description>Aminou sitting under a mango tree with mangoes hanging from branches, working on his research with a notebook and tea</description>
         </image>
 
         <p>
@@ -252,6 +253,7 @@
            You finalise the design, draft sampling frames, identify enumerators. It's coming along nicely.
         </p>
         <image source="images/aminou_phone.png" width="70%">
+          <description>Aminou on the phone in his office, discussing the research study with a data collection partner</description>
         </image>
         <p>
            Two days later, your phone rings. It's a number you recognise - a regional data collection partner. They're experienced, reputable, and well connected.
@@ -289,6 +291,7 @@
           This is not purely random sampling, but has more structure in it. 
         </p>
         <image source="images/aminou_work.png" width="70%">
+          <description>Aminou working at his desk with maps and documents spread out, planning the large-scale agricultural study</description>
         </image>
         <p>You work with national agricultural ministries to obtain lists of registered farmers. From these lists, farmers will be randomly sampled across districts and regions to ensure geographic coverage.
            On paper, it looks beautiful: Random sampling, national scope, huge statistical power.
@@ -321,6 +324,7 @@
           You decide not to take the leap into massive scale, <q>Thank you for the offer, but, I am happy with the current scale</q>
         </p>
         <image source="images/aminou_work.png" width="70%">
+          <description>Aminou working at his desk with maps and documents spread out, planning the medium-scale agricultural study</description>
         </image>
         <p>
           This study will aim to balance statistical power with logistical control. Broad enough to detect patterns. Small enough to manage properly.
@@ -359,6 +363,7 @@
            You design the pilot to be large enough to reveal problems - but small enough to adapt quickly.
         </p>
         <image source="images/aminou_work.png" width="70%">
+          <description>Aminou working at his desk with maps and documents spread out, planning the pilot study</description>
         </image>
         <p>
           You plan out your pilot: You will work with approximately 240 farmers, 80 from each country. With six plots per farmer, that gives you 1440 plot-level observations.
