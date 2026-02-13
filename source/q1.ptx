@@ -17,6 +17,7 @@
       You arrive just before planting. The air is dry and hot, and farmers are already gathering in the shade. One of the farmers spots you, and comes running over.
     </p>
         <image source="images/aminou_question.png" width="70%">
+        </image>
     <p>
       <q>Aminou! Thank goodness you're here. We've heard about your big study across the three countries. Everyone says you now have real evidence. So tell me - what variety should I plant?</q>
     </p>
@@ -452,6 +453,7 @@
       You arrive just before planting. The air is dry and hot, and farmers are already gathering in the shade. One of the farmers spots you, and comes running over.
     </p>
         <image source="images/aminou_question.png" width="70%">
+        </image>
     <p>
       <q>Aminou! Thank goodness you're here. I've heard about your study and everyone says you now have real evidence. So tell me - what variety should I plant?</q>
     </p>
@@ -971,6 +973,7 @@
       You're working intensively with a small group of farmers.
     </p>
         <image source="images/aminou_question.png" width="70%">
+        </image>
     <p>
       One morning, a farmer approaches you. <q>Aminou, I've been watching the trials. What variety should I plant next season - ICRI or Locale?</q>
     </p>
