@@ -110,6 +110,8 @@
           But you are not the kind of statistician who hides behind a laptop or speaks only in equations. You know that data begins with people, so you work on the ground with farmers. You sit under mango trees during long afternoon meetings, drinking small (but very strong) cups of tea and listening carefully. You occasionally argue (politely) with government officials in offices where the air hums with ceiling fans and policy ambition.
         </p>
 
+        <image source="images/aminou_tree.png" width="70%">
+
         <p>
           For the past few years, you have been working with small groups of millet farmers in one region. Together, you tested different innovations: alternative weeding methods that reduced labour time, adjustments to planting densities to make better use of limited rainfall, and soil-based fertility treatments inspired by local practices. Some ideas came from research papers. Others came from farmers themselves - practices they had been experimenting with quietly for years.
           <alert>[TODO: Insert real West African RMS example here.]</alert>
@@ -248,6 +250,7 @@
         <p>You chose to go straight into the main study. You have done plenty of similar studies before, so you are ready to dig into the main study now. 
            You finalise the design, draft sampling frames, identify enumerators. It's coming along nicely.
         </p>
+        <image source="images/aminou_phone.png" width="70%">
         <p>
            Two days later, your phone rings. It's a number you recognise - a regional data collection partner. They're experienced, reputable, and well connected.
         </p>
@@ -283,6 +286,7 @@
           Within the countries, you stratify your sample: By soil type (sandy vs clay) and by farmer gender - you want to make sure you capture variation that you already know matters.
           This is not purely random sampling, but has more structure in it. 
         </p>
+        <image source="images/aminou_work.png" width="70%">
         <p>You work with national agricultural ministries to obtain lists of registered farmers. From these lists, farmers will be randomly sampled across districts and regions to ensure geographic coverage.
            On paper, it looks beautiful: Random sampling, national scope, huge statistical power.
            But then you begin thinking operationally. With this many farmers, you will need hundreds, perhaps thousands, of enumerators.
@@ -313,6 +317,7 @@
         <p>
           You decide not to take the leap into massive scale, <q>Thank you for the offer, but, I am happy with the current scale</q>
         </p>
+        <image source="images/aminou_work.png" width="70%">
         <p>
           This study will aim to balance statistical power with logistical control. Broad enough to detect patterns. Small enough to manage properly.
           You open your notebook and begin sketching the design. You will work with approximately 24,000 farmers - 8,000 in each country.
@@ -349,6 +354,7 @@
            <q>This,</q> you tell yourself, <q>is where we find the cracks before they become faults.</q>
            You design the pilot to be large enough to reveal problems - but small enough to adapt quickly.
         </p>
+        <image source="images/aminou_work.png" width="70%">
         <p>
           You plan out your pilot: You will work with approximately 240 farmers, 80 from each country. With six plots per farmer, that gives you 1440 plot-level observations.
           Not enormous, but not trivial either - this study is about understanding the structure of the data before you lock it in.
