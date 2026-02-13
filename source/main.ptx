@@ -280,6 +280,8 @@
            You sit down and redraft the proposal: You plan to recruit 240,000 farmers, if each farmer manages 6 plots then you will get 1,440,000 plot-level observations. 
            The number looks almost unreal on the page.
            Surely this will capture the variation - across regions, soil types, farmer characteristics, practices. With numbers this large, patterns should become clear.
+          Within the countries, you stratify your sample: By soil type (sandy vs clay) and by farmer gender - you want to make sure you capture variation that you already know matters.
+          This is not purely random sampling, but has more structure in it. 
         </p>
         <p>You work with national agricultural ministries to obtain lists of registered farmers. From these lists, farmers will be randomly sampled across districts and regions to ensure geographic coverage.
            On paper, it looks beautiful: Random sampling, national scope, huge statistical power.
@@ -350,6 +352,8 @@
         <p>
           You plan out your pilot: You will work with approximately 240 farmers, 80 from each country. With six plots per farmer, that gives you 1440 plot-level observations.
           Not enormous, but not trivial either - this study is about understanding the structure of the data before you lock it in.
+          Within the countries, you stratify your sample: By soil type (sandy vs clay) and by farmer gender - you want to make sure you capture variation that you already know matters.
+          This is not purely random sampling, but has more structure in it. 
         </p>
         <p>
           You choose communities where you already have trust, or where trusted partners can introduce you properly.
