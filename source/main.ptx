@@ -169,35 +169,25 @@
         </p>
 
         <p>
-          You need to decide: <alert>How much data should you collect?</alert>
+          You need to decide: <alert>Should you begin with a pilot study, or go straight into a main study?</alert>
         </p>
 
         <p>
           And you know the data will not be simple.
+          Even within a single region, farmers and their farms differ. Some have sandy soils that drain quickly; others have clay soils that hold water.
+          Even within the same country, soil type can quietly change what <q>works.</q> Farmers themselves differ too. Some are women. Some are men.
+          You have seen before that access to labour, tools, and decision-making power can influence outcomes in subtle but important ways.
         </p>
 
         <p>
-          Even within a single region, farmers and their farms differ. Some have sandy soils that drain quickly; others have clay soils that hold water. Even within the same country, soil type can quietly change what <q>works.</q> Farmers themselves differ too. Some are women. Some are men. You have seen before that access to labour, tools, and decision-making power can influence outcomes in subtle but important ways.
-        </p>
-
-        <p>
-          And then there are the plots.
-        </p>
-
-        <p>
+          And then there are the plots:
           Each farmer has six plots. Six small experiments, side by side, exposed to the same weather — but not always the same management.
-        </p>
-
-        <p>
           On each plot, farmers can decide:
           <ul>
             <li><p>Which millet variety to plant (ICRI or Local)</p></li>
             <li><p>Whether to use zai pits for water harvesting</p></li>
             <li><p>Which weeding method to apply</p></li>
           </ul>
-        </p>
-
-        <p>
           They might plant one variety on all six plots.
           Or split three and three.
           They might use zai pits on four plots but not the other two.
@@ -210,49 +200,30 @@
 
         <p>
           But you already know something important. Yield is never just about one thing.
-        </p>
-
-        <p>
           It is shaped by region, farmer characteristics, soil type, plot differences, and the three treatments: variety, zai, and weeding method. And sometimes by things you didn't even measure.
-        </p>
-
-        <p>
           Some of these factors you can influence, and some you cannot control at all. But if you ignore them, they may quietly distort your results.
-        </p>
-
-        <p>
           You take another sip of tea.
         </p>
 
         <p>
-          Suddenly the question of <q>How much data?</q> feels heavier.
-        </p>
-
-        <p>
+          Suddenly the question of <q>pilot or not?</q> feels heavier.
           Because the more variation there is, the more carefully you must design the study to account for it.
+          Now the choice is not just about speed - it is about complexity, and learning, and credibility.
         </p>
 
         <p>
-          Now the choice is not just about size.
+          If you choose a pilot study, you will start small and can test your data collection tools. You will see how farmers actually distribute variety, zai, and weeding across their six plots, and can
+          discover where enumerators misunderstand questions. You can refine your design before committing to a larger, more expensive main study.
+          It will take more time, but you will learn before you scale.
         </p>
 
         <p>
-          It is about complexity.
-          About credibility.
-          About trust.
+          If you choose to go straight into the main study, you will move quickly. The governments are eager. The ministries want answers.
+          You can collect large amounts of data immediately and produce results faster.
+          But you will be committing fully to a design that has not yet been tested at scale.
         </p>
 
-        <p>
-          If you choose a Big Survey, you will gather data from thousands of farmers across all three countries. The results could be nationally representative and politically persuasive, but the study would be expensive, complex, and harder to manage carefully.
-        </p>
-
-        <p>
-          If you choose a Medium Survey, you will work with several hundred farmers, carefully sampled across regions. It could offer a balance between depth and breadth, but it may fall into an uncomfortable middle ground. Too small to feel nationally definitive, yet too large to build the deep relationships of a truly participatory study.
-        </p>
-
-        <p>
-          If you choose a Small Study, you will work intensively with a smaller number of farmers. You will gain rich insight and strong engagement, but your findings may be questioned for lacking representativeness.
-        </p>
+        <p><alert>TODO: Something here on pilot studies / podcast with Roger on it / RMS story? </alert></p>
 
         <p>
           You finish your tea.
@@ -265,132 +236,141 @@
         <p>
           <alert>What do you choose?</alert>
           <ul>
-            <li><p><xref ref="section-big-q1">Big Study</xref></p></li>
-            <li><p><xref ref="section-medium-q1">Medium Study</xref></p></li>
-            <li><p><xref ref="section-small-q1">Small Study</xref></p></li>
+            <li><p><xref ref="section-small-q1">Pilot Study</xref></p></li>
+            <li><p><xref ref="section-not-pilot">Main Study</xref></p></li>
+          </ul>
+        </p>
+      </section>
+
+
+     <section xml:id="section-not-pilot">
+       <title>Main Study</title>
+        <p>You chose to go straight into the main study. You have done plenty of similar studies before, so you are ready to dig into the main study now. 
+           You finalise the design, draft sampling frames, identify enumerators. It's coming along nicely.
+        </p>
+        <p>
+           Two days later, your phone rings. It's a number you recognise - a regional data collection partner. They're experienced, reputable, and well connected.
+        </p>
+        <p><q>Aminou! We heard you're launching a multi-country agricultural study. Exciting work.</q>
+        </p>
+        <p>You smile. <q>Yes. It's ambitious.</q></p>
+        <p><q>We can help,</q> they continue.
+          <q>In fact, we can do more than help. With our enumerator network, we can cover ten times the number of farmers you’re currently planning and still stay within your budget.</q>
+        </p>
+        <p>You pause. <q>Ten times?</q></p>
+        <p><q>Yes. We already have trained teams in place. Digital data capture, regional supervisors - we've done this before. If governments want strong evidence, scale matters.</q></p>
+        <p>You stare at your notebook: Ten times the farmers! Ten times the plots and the data. This is a huge opportunity - impossible to ignore.</p>
+        <p>Your partner continues: <q>If you go small, policymakers may question representativeness. But if you go large - really large - the conclusions become harder to dismiss.</q></p>
+        <p>You feel the appeal. You haven't piloted this design, or even tested it at scale. But is this too big of an opportunity to miss? But, once you go large, you cannot quietly adjust mid-season.</p>
+        <p>Your partner waits. <q>So,</q> they say, <q>shall we scale this properly?</q></p>
+        <p>You look out at the mango tree. What do you choose?</p>
+        <p>
+          <alert>What do you choose?</alert>
+          <ul>
+            <li><p><xref ref="section-big-q1">Accept the partner's offer and scale up with 10 times the data</xref></p></li>
+            <li><p><xref ref="section-medium-q1">Keep the main study at your original planned scale</xref></p></li>
           </ul>
         </p>
       </section>
 
       <section xml:id="section-big-q1">
-        <title>Big Survey</title>
-        
-        <p>
-          You chose the Big Survey.
+        <title>Accepting the offer</title>
+        <p>You don't hesitate. <q>If we’re going to do this,</q> you say, <q>let's do it properly.</q></p>
+        <p>You accept the partner's offer - this will not be a modest study, but instead a national effort — across Ilam, Regin, and Anikrub. The scale is ambitious, but the results could carry real weight.
+           You sit down and redraft the proposal: You plan to recruit 240,000 farmers, if each farmer manages 6 plots then you will get 1,440,000 plot-level observations. 
+           The number looks almost unreal on the page.
+           Surely this will capture the variation - across regions, soil types, farmer characteristics, practices. With numbers this large, patterns should become clear.
         </p>
-<p>
-This means gathering data from thousands of farmers across all three countries: Ilam, Regin, and Anikrub. The scale will be ambitious, but the results could carry real weight.
-        </p>
-        <p>
-You begin drafting the proposal.
-        </p>
-        <p>
-Sample Size: You plan to recruit 240,000 farmers with each farmer managing 6 plots. It feels large enough to capture variation across regions, soil types, and farmer characteristics.
-        </p>
-        <p>
-You will work with national agricultural ministries to obtain lists of registered farmers in each country. From these lists, you will randomly sample farmers across different regions to ensure geographic representation. As you write, you feel the weight of logistical complexity settling in.
-        </p>
-        <p>
-With this many farmers, you will need a large team of enumerators — people trained to collect data in the field. They will need to be hired, trained, and supervised. Quality control becomes critical. How do you ensure that data collection is consistent across three countries, each with different languages, cultures, and agricultural systems?
-        </p>
-        <p>
-[TODO: Insert Podcast of me and David on enumerators / variety that they can add? Or background info on that.]
-        </p>
-        <p>
-You also know that large surveys often sacrifice depth for breadth. With so many farmers to visit, your team will have limited time with each one. Data collection might become mechanical — a checklist to complete rather than a conversation to have. And then there's the cost. You estimate the budget: enumerators, transport, training, data management systems. The numbers climb quickly. Funding agencies will want to see strong justification for this level of investment.
-        </p>
-        <p>
-Still, if you can pull it off, the results will be nationally representative. Policymakers will be able to say with confidence: “These findings apply to our country as a whole.” That kind of credibility could influence national agricultural policy across the region.
-        </p>
-        <p>
-You pause and consider the trade-offs carefully. The proposal is approved. The data collection begins. Months pass. The data flows in. And finally, you have your dataset. Now it's time to put that data to use!        </p>
-        <p>
-          Continue to <xref ref="Q1-large">Question 1</xref>.
-        </p>
+        <p>You work with national agricultural ministries to obtain lists of registered farmers. From these lists, farmers will be randomly sampled across districts and regions to ensure geographic coverage.
+           On paper, it looks beautiful: Random sampling, national scope, huge statistical power.
+           But then you begin thinking operationally. With this many farmers, you will need hundreds, perhaps thousands, of enumerators.
+           They will need to be recruited, trained, supervised, and coordinated across three countries with different languages, different administrative systems, and different agricultural rhythms.
+           Quality control becomes everything.
+           You know from experience that large surveys often sacrifice depth for breadth. With so many farmers to visit, interviews will be brief.
+           Conversations will be structured. Data collection risks becoming mechanical - a checklist rather than a dialogue.
+           But the upside is enormous.
+           If you can pull this off, your findings will be nationally representative. Policymakers will be able to say, confidently if these results reflect the farmers.
+           That kind of credibility can influence national agricultural policy. It can shift subsidy decisions. It can affect extension messaging.
+           The funding agency approves the proposal, the enumerators are trained, the study rolls out across Ilam, Regin, and Anikrub.
+         </p>
+         <p><alert>TODO: Insert podcast with David on enumerators?</alert></p>
+         <p>
+           Months pass and the data rolls in - thousands of rows at a time. Hundreds of thousands. Over a million plot records!
+         </p>
+         <p>
+           Finally, the collection ends. You open the dataset, and it is vast, but very exciting. Surely the answers are in here.
+         </p>
+         <p>
+           Continue to <xref ref="Q1-large">Question 1</xref>.
+         </p>
       </section>
 
       <section xml:id="section-medium-q1">
         <title>Medium Survey</title>
         
         <p>
-          You chose the Medium Survey.
+          You decide not to take the leap into massive scale, <q>Thank you for the offer, but, I am happy with the current scale</q>
         </p>
-<p>
-You decide on a middle path — not as large as a national survey, but broader than your previous small-scale work. This approach aims to balance statistical power with manageable logistics and deeper farmer engagement.
-</p>
-<p>
-You sketch out the plan in your notebook.
-</p>
-<p>
-Sample Size: You will work with approximately 24,000 farmers — 8,000 in each country. With 6 plots per farmer, that gives you 144,000 observations. It's substantial, but you can maintain quality control.
-</p>
-<p>
-Rather than sampling nationally, you will focus on specific regions within each country — areas where millet farming is most important and where the innovations you're testing are most relevant. Within these regions, you will stratify your sample by soil type and farmer gender to ensure you capture key sources of variation.
-</p>
-<p>
-[TODO: Put in podcast with David on enumerators/variability that can add?]
-</p>
-<p>
-This approach feels more manageable. You can hire a smaller team of enumerators and you can train them more thoroughly. With fewer farmers to visit, your team can spend more time at each farm, building relationships and ensuring data quality.
-</p>
-<p>
-But you feel a nagging uncertainty. What if your findings don't apply to the whole country. Yet, it's not small enough to justify the deep, participatory approach you used in your earlier work. With this many farmers, you can't co-design every detail or spend months building trust in each community.
-</p>
-<p>
-You're essentially making a compromise: somewhat representative, somewhat engaged — but neither fully. On the other hand, this middle path might be the most pragmatic. It allows you to say something meaningful about regional patterns while keeping costs reasonable. And it still gives you enough flexibility to adapt your methods if needed.
-</p>
-<p>
-The proposal is approved. The data collection begins. Months pass. The data flows in. And finally, you have your dataset. Now it's time to put that data to use.
+        <p>
+          This study will aim to balance statistical power with logistical control. Broad enough to detect patterns. Small enough to manage properly.
+          You open your notebook and begin sketching the design. You will work with approximately 24,000 farmers - 8,000 in each country.
+          With six plots per farmer, that gives you 144,000 plot-level observations. This is substantial, but not as overwhelming as 10x the amount would be. 
         </p>
-
+        <p>
+          You focus on key millet-producing regions within each country — areas where the innovations are relevant and where agricultural systems are comparable.
+          Within these regions, you stratify your sample: By soil type (sandy vs clay) and by farmer gender - you want to make sure you capture variation that you already know matters.
+          This is not purely random sampling, but has more structure in it. 
+        </p>
+        <p> 
+          Because you have fewer farmers than the large-scale option, you can invest more in enumerator training.
+          Your team will be smaller, and supervision will be tighter - but you can monitor consistency across countries more carefully.
+          Interviews can be structured, but not rushed, with time for clarification and checking.
+        </p>
+        <p>
+          The proposal is approved: Enumerators are trained and data collection begins.
+        </p>
+        <p>
+          Months pass, and data flows in — steady, manageable, substantial.
+        </p>
+        <p>You sit down and open the dataset: 144,000 plot records. Large enough to reveal patterns. You finally have your data, this is great.
+        </p><p><alert>TODO: Put in podcast with David on enumerators/variability that can add?] </alert></p>
         <p>
           Continue to <xref ref="Q1-medium">Question 1</xref>.
         </p>
       </section>
 
       <section xml:id="section-small-q1">
-        <title>Small Study</title>
+        <title>Pilot Study Path</title>
         
-        <p>
-          You chose the Small Study. 
+        <p>You chose to begin with a pilot study. 
+           You lean back under the mango tree and let yourself breathe. You are not committing to scale yet. You are committing to learning.
+           <q>This,</q> you tell yourself, <q>is where we find the cracks before they become faults.</q>
+           You design the pilot to be large enough to reveal problems - but small enough to adapt quickly.
         </p>
-
         <p>
-You decide to stay close to the approach that has worked for you before: intensive, participatory work with a smaller number of farmers. This isn't about claiming national representativeness. It's about understanding deeply — and doing it right. You pull out your notebook and begin planning.
+          You plan out your pilot: You will work with approximately 240 farmers, 80 from each country. With six plots per farmer, that gives you 1440 plot-level observations.
+          Not enormous, but not trivial either - this study is about understanding the structure of the data before you lock it in.
         </p>
-
         <p>
-Sample Size: You will work with approximately 240 farmers — 80 in each country. With 6 plots per farmer, that gives you 1440 observations. It's modest by survey standards, but it's enough to detect meaningful patterns if the effects are real.
+          You choose communities where you already have trust, or where trusted partners can introduce you properly.
+          Within those communities, you work with farmer groups to identify participants who are genuinely interested in experimenting, and you explain to them clearly:
         </p>
-
         <p>
-You won't sample randomly from national lists. Instead, you will select specific communities in each country — places where you already have relationships or where local partners can help you build trust. Within these communities, you will work closely with farmer groups to identify participants who are genuinely interested in experimenting with new practices.
+          <q>This is a learning phase. We are testing the design — not just the treatments.</q>
         </p>
-
+        <p> You refine the questionnaire, test how enumerators record plot-level decisions, to check whether farmers actually distribute variety, zai, and weeding across their six plots the way you expect.
+          You also notice a few things. Enumerators occasionally confuse plot numbering, and some farmers describe plots by landmarks rather than sequence.
+          Yield measurements vary slightly depending on who weighs the harvest.
+          None of this is catastrophic, but it is all useful information for a later main study. 
+          You adjust your training materials, clarify your plot definitions, improve the recording template - the pilot is doing exactly what it should:
+          It is revealing the study you thought you had designed, and the study that actually exists.
+        </p>
+        <p><alert>TODO: Is this run over two years. How to account for that in the story.</alter></p>
         <p>
-This approach feels familiar. It allows you to do what you do best: co-design the study with farmers, adapt to local realities, and build the kind of trust that leads to high-quality data.
+          Months pass, the seasons end, and the pilot dataset is complete.
+          You sit down with your 1,440 observations - this is not the final answer, but it is the first honest look at your design.
+          You can look at what the pilot data tells you.
         </p>
-
-        <p>
-You'll be able to visit each farm multiple times during the season. You'll see the plots yourself. You'll sit down with farmers, listen to their observations, and understand not just what happened, but why they think it happened. That contextual knowledge often matters more than statistical precision alone.
-        </p>
-
-        <p>
-But you know the criticism you'll face. With only 240 farmers, selected purposively rather than randomly, your findings won't be nationally representative. Skeptics will say: “This worked in these specific communities, but we can't generalize to the whole country.” Policymakers who want definitive answers might dismiss your work as “just a pilot study.” And yet, you've seen how powerful small, well-designed studies can be. They generate insights that large surveys miss. They identify mechanisms, not just averages. And when farmers see results in their own fields — not in a distant research station — that's when change actually happens.
-        </p>
-
-        <p>
-You take another sip of tea, now cool, and feel confident in your choice. Sometimes, depth matters more than breadth.
-        </p>
-
-        <p>
-The proposal is approved. The data collection begins. Months pass. The data flows in. And finally, you have your dataset.
-        </p>
-
-        <p>
-Now it's time to put that data to use.
-        </p>
-
         <p>
           Continue to <xref ref="Q1-small">Question 1</xref>.
         </p>
