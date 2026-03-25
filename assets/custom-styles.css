@@ -1,0 +1,17 @@
+/*
+ * Choose Your Adventure - Answer Path Visibility
+ *
+ * Each <paragraphs> block in the Q1 adventure sections represents either
+ * the initial question or an answer path. Only the first <paragraphs>
+ * block (the question) should be visible by default. Answer paths are
+ * revealed only when the reader selects them via the choice hyperlinks
+ * (which expand as inline knowls).
+ */
+
+/* Within each Q1 adventure section, hide all paragraphs blocks after the
+   first one. These are the answer paths that should only appear when chosen. */
+#section-q1-large section.paragraphs ~ section.paragraphs,
+#section-q1-medium section.paragraphs ~ section.paragraphs,
+#section-q1-small section.paragraphs ~ section.paragraphs {
+    display: none;
+}
