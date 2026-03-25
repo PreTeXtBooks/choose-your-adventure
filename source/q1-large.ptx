@@ -1,4 +1,4 @@
-<page xml:id="Q1-large">
+<section xml:id="Q1-large">
     <title>Question 1 - Large Dataset</title>
     
     <p>
@@ -28,7 +28,6 @@
         <li><p><xref ref="Q1-large-idk">I don't know</xref></p></li>
       </ul>
     </p>
-</page>
 
   <page xml:id="Q1-large-icri">
     <title>ICRI - Large Dataset</title>
@@ -432,3 +431,4 @@
       Go to <xref ref="Q2-large">Question 2</xref>.
     </p>
   </page>
+</section>
