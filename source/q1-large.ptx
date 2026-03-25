@@ -1,0 +1,434 @@
+ <section xml:id="Q1-large">
+    <title>Question 1 - Large Dataset</title>
+    
+    <p>
+      You arrive just before planting. The air is dry and hot, and farmers are already gathering in the shade. One of the farmers spots you, and comes running over.
+    </p>
+        <image source="images/aminou_question.png" width="70%">
+          <description>A farmer eagerly approaching Aminou before the study begins, asking which variety to plant for the upcoming season</description>
+        </image>
+    <p>
+      <q>Aminou! Thank goodness you're here. We've heard about your big study across the three countries. Everyone says you now have real evidence. So tell me - what variety should I plant?</q>
+    </p>
+
+    <p>
+      You pause. Across Ilam, Regin, and Anikrub, thousands of plots were studied. Farmers tried two varieties: ICRI and Locale.
+    </p>
+
+    <p>
+      You have the data and so you sit down with them to give them some advice. What do you say?
+    </p>
+
+    <p>
+      <alert>Choose your answer:</alert>
+      <ul>
+        <li><p><xref ref="Q1-large-icri">ICRI</xref></p></li>
+        <li><p><xref ref="Q1-large-locale">Locale</xref></p></li>
+        <li><p><xref ref="Q1-large-either">Either</xref></p></li>
+        <li><p><xref ref="Q1-large-idk">I don't know</xref></p></li>
+      </ul>
+    </p>
+  </section>
+
+  <section xml:id="Q1-large-icri">
+    <title>ICRI - Large Dataset</title>
+    
+    <p>
+      You nod confidently, <q>Plant ICRI.</q>
+    </p>
+
+    <p>
+      The farmer squints at you, <q>Hmm.</q> They're not convinced, and that plays on your mind.
+    </p>
+
+    <p>
+      Later that evening, as you sit reviewing the data more carefully, something unsettles you.
+    </p>
+
+    <p>
+      <q>Wait<ellipsis/> what?</q>
+    </p>
+
+    <p>
+      You flip back through your tables.
+    </p>
+
+    <p>
+      You would have expected that pattern somewhere else -- but do you expect that here in Anikrub?
+    </p>
+
+    <p>
+      The farmer comes back the next day.
+    </p>
+
+    <p>
+      <q>So<ellipsis/> are you sure?</q>
+    </p>
+
+    <p>
+      What do you say now?
+    </p>
+
+    <p>
+      <ul>
+        <li><p><xref ref="Q1-large-icri-icri">ICRI</xref></p></li>
+        <li><p><xref ref="Q1-large-locale-correct">Locale</xref></p></li>
+        <li><p><xref ref="Q1-large-icri-either">Either</xref></p></li>
+        <li><p><xref ref="Q1-large-icri-idk">I don't know</xref></p></li>
+      </ul>
+    </p>
+  </section>
+
+  <section xml:id="Q1-large-icri-icri">
+    <title>ICRI Again - Large Dataset</title>
+    
+    <p>
+      You double down, <q>Still ICRI.</q>
+    </p>
+
+    <p>
+      The farmer raises an eyebrow, <q>Do you work for this ICRI variety or something?</q>
+    </p>
+
+    <p>
+      You feel your face warm. That Anikrub sun is hot today.
+    </p>
+
+    <p>
+      Time to slow down.
+    </p>
+
+    <assemblage>
+      <p>
+        Hint: Have you looked at yield by region and variety?
+      </p>
+      <p>
+        Not just overall yield - but yield broken down by region as well as variety.
+      </p>
+      <p>
+        The data are not flat, they are layered. Try again.
+      </p>
+    </assemblage>
+
+    <p>
+      <ul>
+        <li><p><xref ref="Q1-large-help">ICRI</xref></p></li>
+        <li><p><xref ref="Q1-large-locale-correct">Locale</xref></p></li>
+        <li><p><xref ref="Q1-large-help">Either</xref></p></li>
+        <li><p><xref ref="Q1-large-help">I don't know</xref></p></li>
+      </ul>
+    </p>
+  </section>
+
+  <section xml:id="Q1-large-icri-regin">
+    <title>Incorrect Region</title>
+    
+    <p>
+      <q>Regin, of course.</q>
+    </p>
+
+    <p>
+      The farmer frowns, <q>That doesn't sound very confident.</q>
+    </p>
+
+    <p>
+      The Anikrub sun is hot and you feel sweat going down your face. You realise you may be smoothing over something important.
+    </p>
+
+    <assemblage>
+      <p>
+        Hint: Look at yield by region and variety. Averages across countries can hide regional differences.
+      </p>
+    </assemblage>
+
+    <p>
+      <ul>
+        <li><p><xref ref="Q1-large-help">ICRI</xref></p></li>
+        <li><p><xref ref="Q1-large-locale-correct">Locale</xref></p></li>
+        <li><p><xref ref="Q1-large-help">Either</xref></p></li>
+        <li><p><xref ref="Q1-large-help">I don't know</xref></p></li>
+      </ul>
+    </p>
+  </section>
+
+  <section xml:id="Q1-large-icri-ilam">
+    <title>Incorrect Region</title>
+    
+    <p>
+      <q>Ilam, of course.</q>
+    </p>
+
+    <p>
+      The farmer frowns, <q>That doesn't sound very confident.</q>
+    </p>
+
+    <p>
+      The Anikrub sun is hot and you feel sweat going down your face. You realise you may be smoothing over something important.
+    </p>
+
+    <assemblage>
+      <p>
+        Hint: Look at yield by region and variety. Averages across countries can hide regional differences.
+      </p>
+    </assemblage>
+
+    <p>
+      <ul>
+        <li><p><xref ref="Q1-large-help">ICRI</xref></p></li>
+        <li><p><xref ref="Q1-large-locale-correct">Locale</xref></p></li>
+        <li><p><xref ref="Q1-large-help">Either</xref></p></li>
+        <li><p><xref ref="Q1-large-help">I don't know</xref></p></li>
+      </ul>
+    </p>
+  </section>
+
+  <section xml:id="Q1-large-icri-either">
+    <title>Either - Large Dataset (After ICRI)</title>
+    
+    <p>
+      <q>Either one should be fine.</q>
+    </p>
+
+    <p>
+      The farmer frowns, <q>That doesn't sound very confident.</q>
+    </p>
+
+    <p>
+      The Anikrub sun is hot and you feel sweat going down your face. You realise you may be smoothing over something important.
+    </p>
+
+    <assemblage>
+      <p>
+        Hint: Look at yield by region and variety. Averages across countries can hide regional differences.
+      </p>
+    </assemblage>
+
+    <p>
+      <ul>
+        <li><p><xref ref="Q1-large-help">ICRI</xref></p></li>
+        <li><p><xref ref="Q1-large-locale-correct">Locale</xref></p></li>
+        <li><p><xref ref="Q1-large-help">Either</xref></p></li>
+        <li><p><xref ref="Q1-large-help">I don't know</xref></p></li>
+      </ul>
+    </p>
+  </section>
+
+  <section xml:id="Q1-large-icri-idk">
+    <title>I Don't Know - Large Dataset (After ICRI)</title>
+    
+    <p>
+      You hesitate. <q>I<ellipsis/> need to check something.</q>
+    </p>
+
+    <p>
+      You reopen your analysis.
+    </p>
+
+    <p>
+      You suddenly notice that you've been looking at overall averages across all three countries.
+    </p>
+
+    <p>
+      But this farmer is in Anikrub, and the pattern here is not the same as the overall pattern from your data.
+    </p>
+
+    <assemblage>
+      <p>
+        Hint:
+      </p>
+      <p>
+        Filter the data to Anikrub.
+      </p>
+      <p>
+        Then compare yield by variety.
+      </p>
+    </assemblage>
+
+    <p>
+      <ul>
+        <li><p><xref ref="Q1-large-help">ICRI</xref></p></li>
+        <li><p><xref ref="Q1-large-locale-correct">Locale</xref></p></li>
+        <li><p><xref ref="Q1-large-help">Either</xref></p></li>
+        <li><p><xref ref="Q1-large-help">I don't know</xref></p></li>
+      </ul>
+    </p>
+  </section>
+
+  <section xml:id="Q1-large-locale">
+    <title>Locale - Large Dataset</title>
+    
+    <p>
+      You say confidently, <q>Locale.</q>
+    </p>
+
+    <p>
+      The farmer smiles. <q>Interesting. That matches what some of us have seen.</q>
+    </p>
+
+    <p>
+      But then he tilts his head. <q>If you're so sure<ellipsis/> tell me this. In which region does Local outperform ICRI on average?</q>
+    </p>
+
+    <p>
+      Now it's your turn to think.
+    </p>
+
+    <p>
+      <alert>Option:</alert>
+      <ul>
+        <li><p><xref ref="Q1-large-icri-regin">Regin</xref></p></li>
+        <li><p><xref ref="Q1-large-icri-ilam">Ilam</xref></p></li>
+        <li><p><xref ref="Q1-large-locale-correct">Anikrub</xref></p></li>
+        <li><p><xref ref="Q1-large-icri-idk">I don't know</xref></p></li>
+      </ul>
+    </p>
+  </section>
+
+  <section xml:id="Q1-large-locale-correct">
+    <title>Locale - Anikrub (Correct)</title>
+    
+    <p>
+      You smile. <q>For Anikrub? Plant the Local variety.</q>
+    </p>
+
+    <p>
+      The farmer nods slowly. <q>That makes sense. It's what many of us have been noticing.</q>
+    </p>
+
+    <p>
+      You feel relieved -- and slightly humbled.
+    </p>
+
+    <p>
+      Across the entire dataset, ICRI may look stronger on average. But when you break the data down by region, Anikrub tells a different story.
+    </p>
+
+    <p>
+      You've just discovered something important:
+    </p>
+
+    <p>
+      Overall averages can mislead and the best decision can depend on context.
+    </p>
+
+    <p>
+      You turn the page in your notebook. This is more complicated than you thought.
+    </p>
+
+    <p>
+      Continue to <xref ref="Q2-large">Question 2</xref>.
+    </p>
+  </section>
+
+  <section xml:id="Q1-large-either">
+    <title>Either - Large Dataset</title>
+    
+    <p>
+      <q>Either one.</q>
+    </p>
+
+    <p>
+      The farmer looks disappointed, <q>That's not very helpful.</q>
+    </p>
+
+    <p>
+      You may be flattening the data too much.
+    </p>
+
+    <assemblage>
+      <p>
+        <alert>Advice:</alert>
+      </p>
+      <p>
+        Break down yield by variety.
+      </p>
+      <p>
+        The story changes when you disaggregate.
+      </p>
+    </assemblage>
+
+    <p>
+      Go back to <xref ref="Q1-large">Question 1</xref>.
+    </p>
+  </section>
+
+  <section xml:id="Q1-large-idk">
+    <title>I Don't Know - Large Dataset</title>
+    
+    <p>
+      You stall.
+    </p>
+
+    <p>
+      <q>Well<ellipsis/> it sure is lovely weather here in Anikrub today.</q>
+    </p>
+
+    <p>
+      The farmer laughs.
+    </p>
+
+    <p>
+      <q>You statisticians.</q>
+    </p>
+
+    <p>
+      You realise avoidance won't help.
+    </p>
+
+    <assemblage>
+      <p>
+        <alert>Advice:</alert>
+      </p>
+      <p>
+        Start by comparing average yield by variety.
+      </p>
+      <p>
+        Then break it down by region. This should lead you to your answer
+      </p>
+    </assemblage>
+
+    <p>
+      <ul>
+        <li><p><xref ref="Q1-large-icri">ICRI</xref></p></li>
+        <li><p><xref ref="Q1-large-locale-correct">Locale</xref></p></li>
+        <li><p><xref ref="Q1-large-icri-either">Either</xref></p></li>
+        <li><p><xref ref="Q1-large-help">I don't know</xref></p></li>
+      </ul>
+    </p>
+  </section>
+
+  <section xml:id="Q1-large-help">
+    <title>Help - Large Dataset</title>
+    
+    <p>
+      Let's walk through this carefully.
+    </p>
+
+    <p>
+      <alert>Step 1:</alert> Look at overall average yield by variety. You may find that ICRI looks better overall.
+    </p>
+
+    <p>
+      <alert>Step 2:</alert> Now break the data down by region. When you look at Anikrub specifically, Local outperforms ICRI on average.
+    </p>
+
+    <p>
+      <alert>What happened?</alert>
+    </p>
+
+    <p>
+      This is an example of how aggregated data can hide regional differences. The distribution of varieties across regions affects the overall average.
+    </p>
+
+    <p>
+      Never give advice based only on overall averages when context matters.
+    </p>
+
+    <p>
+      For Anikrub, the correct answer is: <alert>Locale</alert>
+    </p>
+
+    <p>
+      Go to <xref ref="Q2-large">Question 2</xref>.
+    </p>
+  </section>
