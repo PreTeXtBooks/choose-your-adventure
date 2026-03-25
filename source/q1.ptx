@@ -12,10 +12,10 @@
   <!-- Q1 Large Dataset -->
      <xi:include href="q1-large.ptx"/>
 
-  <!-- Q1 Medium Dataset -->'
+  <!-- Q1 Medium Dataset -->
     <xi:include href="q1-medium.ptx"/>
 
-  <!-- Q1 Small Dataset -->'
+  <!-- Q1 Small Dataset -->
     <xi:include href="q1-small.ptx"/>
 
 </chapter>
