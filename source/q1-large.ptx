@@ -1,3 +1,6 @@
+<section>
+  <title>Large Dataset</title>
+
 <paragraphs xml:id="Q1-large">
     <title>Question 1 - Large Dataset</title>
     
@@ -432,3 +435,5 @@
       Go to <xref ref="Q2-large">Question 2</xref>.
     </p>
   </paragraphs>
+
+</section>

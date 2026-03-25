@@ -1,4 +1,7 @@
-  <section xml:id="Q1-medium">
+<section>
+  <title>Medium Dataset</title>
+
+  <paragraphs xml:id="Q1-medium">
     <title>Question 1 - Medium Dataset</title>
     
     <p>
@@ -28,9 +31,9 @@
         <li><p><xref ref="Q1-medium-idk">I don't know</xref></p></li>
       </ul>
     </p>
-  </section>
+  </paragraphs>
 
-  <section xml:id="Q1-medium-locale">
+  <paragraphs xml:id="Q1-medium-locale">
     <title>Locale - Medium Dataset</title>
     
     <p>
@@ -77,9 +80,9 @@
         <li><p><xref ref="Q1-medium-locale-idk">I don't know</xref></p></li>
       </ul>
     </p>
-  </section>
+  </paragraphs>
 
-  <section xml:id="Q1-medium-locale-locale">
+  <paragraphs xml:id="Q1-medium-locale-locale">
     <title>Locale Again - Medium Dataset</title>
     
     <p>
@@ -118,9 +121,9 @@
         <li><p><xref ref="Q1-medium-help">I don't know</xref></p></li>
       </ul>
     </p>
-  </section>
+  </paragraphs>
 
-  <section xml:id="Q1-medium-locale-either">
+  <paragraphs xml:id="Q1-medium-locale-either">
     <title>Either - Medium Dataset (After Locale)</title>
     
     <p>
@@ -149,9 +152,9 @@
         <li><p><xref ref="Q1-medium-help">I don't know</xref></p></li>
       </ul>
     </p>
-  </section>
+  </paragraphs>
 
-  <section xml:id="Q1-medium-locale-idk">
+  <paragraphs xml:id="Q1-medium-locale-idk">
     <title>I Don't Know - Medium Dataset (After Locale)</title>
     
     <p>
@@ -190,9 +193,9 @@
         <li><p><xref ref="Q1-medium-help">I don't know</xref></p></li>
       </ul>
     </p>
-  </section>
+  </paragraphs>
 
-  <section xml:id="Q1-medium-locale-icri">'
+  <paragraphs xml:id="Q1-medium-locale-icri">
 
     <title>Correcting to ICRI - Medium Dataset</title>
     
@@ -223,9 +226,9 @@
     <p>
       Continue to <xref ref="Q2-medium">Question 2</xref>.
     </p>
-  </section>
+  </paragraphs>
 
-  <section xml:id="Q1-medium-icri-correct">
+  <paragraphs xml:id="Q1-medium-icri-correct">
     <title>ICRI - Ilam (Correct)</title>
     
     <p>
@@ -259,9 +262,9 @@
     <p>
       Continue to <xref ref="Q2-medium">Question 2</xref>.
     </p>
-  </section>
+  </paragraphs>
 
-  <section xml:id="Q1-medium-icri">
+  <paragraphs xml:id="Q1-medium-icri">
     <title>ICRI - Medium Dataset</title>
     
     <p>
@@ -289,9 +292,9 @@
         <li><p><xref ref="Q1-medium-icri-correct">I don't know</xref></p></li>
       </ul>
     </p>
-  </section>
+  </paragraphs>
 
-  <section xml:id="Q1-medium-anikrub">
+  <paragraphs xml:id="Q1-medium-anikrub">
     <title>Anikrub - Variety</title>
     
     <p>
@@ -351,9 +354,9 @@
         <li><p><xref ref="Q1-medium-idk">I don't know</xref></p></li>
       </ul>
     </p>
-  </section>
+  </paragraphs>
 
-  <section xml:id="Q1-medium-either">
+  <paragraphs xml:id="Q1-medium-either">
     <title>Either - Medium Dataset</title>
     
     <p>
@@ -433,10 +436,10 @@
         <li><p><xref ref="Q1-medium-idk">I don't know</xref></p></li>
       </ul>
     </p>
-  </section>
+  </paragraphs>
 
 
-  <section xml:id="Q1-medium-idk">
+  <paragraphs xml:id="Q1-medium-idk">
     <title>I Don't Know - Medium Dataset</title>
     
     <p>
@@ -479,9 +482,9 @@
         <li><p><xref ref="Q1-medium-help">I don't know</xref></p></li>
       </ul>
     </p>
-  </section>
+  </paragraphs>
 
-  <section xml:id="Q1-medium-help">
+  <paragraphs xml:id="Q1-medium-help">
     <title>Help - Medium Dataset</title>
     
     <p>
@@ -515,4 +518,6 @@
     <p>
       Go to <xref ref="Q2-medium">Question 2</xref>.
     </p>
-  </section>
+  </paragraphs>
+
+</section>

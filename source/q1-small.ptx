@@ -1,4 +1,7 @@
-  <section xml:id="Q1-small">
+<section>
+  <title>Small Dataset</title>
+
+  <paragraphs xml:id="Q1-small">
     <title>Question 1 - Small Dataset</title>
     
     <p>
@@ -27,9 +30,9 @@
         <li><p><xref ref="Q1-small-idk">I don't know</xref></p></li>
       </ul>
     </p>
-  </section>
+  </paragraphs>
 
-  <section xml:id="Q1-small-icri">
+  <paragraphs xml:id="Q1-small-icri">
     <title>ICRI - Small Dataset</title>
     
     <p>
@@ -76,9 +79,9 @@
         <li><p><xref ref="Q1-small-icri-idk">I don't know</xref></p></li>
       </ul>
     </p>
-  </section>
+  </paragraphs>
 
-  <section xml:id="Q1-small-icri-icri">
+  <paragraphs xml:id="Q1-small-icri-icri">
     <title>ICRI Again - Small Dataset</title>
     
     <p>
@@ -117,9 +120,9 @@
         <li><p><xref ref="Q1-small-help">I don't know</xref></p></li>
       </ul>
     </p>
-  </section>
+  </paragraphs>
 
-  <section xml:id="Q1-small-icri-either">
+  <paragraphs xml:id="Q1-small-icri-either">
     <title>Either - Small Dataset (After ICRI)</title>
     
     <p>
@@ -148,9 +151,9 @@
         <li><p><xref ref="Q1-small-help">I don't know</xref></p></li>
       </ul>
     </p>
-  </section>
+  </paragraphs>
 
-  <section xml:id="Q1-small-icri-idk">
+  <paragraphs xml:id="Q1-small-icri-idk">
     <title>I Don't Know - Small Dataset (After ICRI)</title>
     
     <p>
@@ -189,9 +192,9 @@
         <li><p><xref ref="Q1-small-help">I don't know</xref></p></li>
       </ul>
     </p>
-  </section>
+  </paragraphs>
 
-  <section xml:id="Q1-small-icri-locale">'
+  <paragraphs xml:id="Q1-small-icri-locale">
 
     <title>Correcting to Locale - Small Dataset</title>
     
@@ -218,9 +221,9 @@
     <p>
       Continue to <xref ref="Q2-small">Question 2</xref>.
     </p>
-  </section>
+  </paragraphs>
 
-  <section xml:id="Q1-small-locale-correct">
+  <paragraphs xml:id="Q1-small-locale-correct">
     <title>Locale - Anikrub (Correct)</title>
     
     <p>
@@ -254,9 +257,9 @@
     <p>
       Continue to <xref ref="Q2-small">Question 2</xref>.
     </p>
-  </section>
+  </paragraphs>
 
-  <section xml:id="Q1-small-locale">
+  <paragraphs xml:id="Q1-small-locale">
     <title>Locale - Small Dataset</title>
     
     <p>
@@ -284,9 +287,9 @@
         <li><p><xref ref="Q1-small-icri-idk">I don't know</xref></p></li>
       </ul>
     </p>
-  </section>
+  </paragraphs>
 
-  <section xml:id="Q1-small-either">
+  <paragraphs xml:id="Q1-small-either">
     <title>Either - Small Dataset</title>
     
     <p>
@@ -366,10 +369,10 @@
         <li><p><xref ref="Q1-small-idk">I don't know</xref></p></li>
       </ul>
     </p>
-  </section>
+  </paragraphs>
 
 
-  <section xml:id="Q1-small-ilam">
+  <paragraphs xml:id="Q1-small-ilam">
     <title>Ilam - Small Dataset</title>
     
     <p>
@@ -441,10 +444,10 @@
         <li><p><xref ref="Q1-small-idk">I don't know</xref></p></li>
       </ul>
     </p>
-  </section>
+  </paragraphs>
 
 
-  <section xml:id="Q1-small-regin">
+  <paragraphs xml:id="Q1-small-regin">
     <title>Regin - Small Dataset</title>
     
     <p>
@@ -516,9 +519,9 @@
         <li><p><xref ref="Q1-small-idk">I don't know</xref></p></li>
       </ul>
     </p>
-  </section>
+  </paragraphs>
 
-  <section xml:id="Q1-small-idk">
+  <paragraphs xml:id="Q1-small-idk">
     <title>I Don't Know - Small Dataset</title>
     
     <p>
@@ -561,9 +564,9 @@
         <li><p><xref ref="Q1-small-help">I don't know</xref></p></li>
       </ul>
     </p>
-  </section>
+  </paragraphs>
 
-  <section xml:id="Q1-small-help">
+  <paragraphs xml:id="Q1-small-help">
     <title>Help - Small Dataset</title>
     
     <p>
@@ -597,4 +600,6 @@
     <p>
       Go to <xref ref="Q2-small">Question 2</xref>.
     </p>
-  </section>
+  </paragraphs>
+
+</section>
