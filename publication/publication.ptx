@@ -20,7 +20,10 @@
     
     <!-- Calculator configuration -->
     <calculator model="none"/>
-    
+
+    <!-- Set split level -->
+    <chunk level="2"/>
+
     <!-- Cross-references -->
     <cross-references text="global"/>
   </html>
