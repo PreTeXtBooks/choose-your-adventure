@@ -30,7 +30,7 @@
     </p>
   </section>
 
-  <section xml:id="Q1-large-icri">
+  <page xml:id="Q1-large-icri">
     <title>ICRI - Large Dataset</title>
     
     <p>
@@ -77,9 +77,9 @@
         <li><p><xref ref="Q1-large-icri-idk">I don't know</xref></p></li>
       </ul>
     </p>
-  </section>
+  </page>
 
-  <section xml:id="Q1-large-icri-icri">
+  <page xml:id="Q1-large-icri-icri">
     <title>ICRI Again - Large Dataset</title>
     
     <p>
@@ -118,9 +118,9 @@
         <li><p><xref ref="Q1-large-help">I don't know</xref></p></li>
       </ul>
     </p>
-  </section>
+  </page>
 
-  <section xml:id="Q1-large-icri-regin">
+  <page xml:id="Q1-large-icri-regin">
     <title>Incorrect Region</title>
     
     <p>
@@ -149,9 +149,9 @@
         <li><p><xref ref="Q1-large-help">I don't know</xref></p></li>
       </ul>
     </p>
-  </section>
+  </page>
 
-  <section xml:id="Q1-large-icri-ilam">
+  <page xml:id="Q1-large-icri-ilam">
     <title>Incorrect Region</title>
     
     <p>
@@ -180,9 +180,9 @@
         <li><p><xref ref="Q1-large-help">I don't know</xref></p></li>
       </ul>
     </p>
-  </section>
+  </page>
 
-  <section xml:id="Q1-large-icri-either">
+  <page xml:id="Q1-large-icri-either">
     <title>Either - Large Dataset (After ICRI)</title>
     
     <p>
@@ -211,9 +211,9 @@
         <li><p><xref ref="Q1-large-help">I don't know</xref></p></li>
       </ul>
     </p>
-  </section>
+  </page>
 
-  <section xml:id="Q1-large-icri-idk">
+  <page xml:id="Q1-large-icri-idk">
     <title>I Don't Know - Large Dataset (After ICRI)</title>
     
     <p>
@@ -252,9 +252,9 @@
         <li><p><xref ref="Q1-large-help">I don't know</xref></p></li>
       </ul>
     </p>
-  </section>
+  </page>
 
-  <section xml:id="Q1-large-locale">
+  <page xml:id="Q1-large-locale">
     <title>Locale - Large Dataset</title>
     
     <p>
@@ -282,9 +282,9 @@
         <li><p><xref ref="Q1-large-icri-idk">I don't know</xref></p></li>
       </ul>
     </p>
-  </section>
+  </page>
 
-  <section xml:id="Q1-large-locale-correct">
+  <page xml:id="Q1-large-locale-correct">
     <title>Locale - Anikrub (Correct)</title>
     
     <p>
@@ -318,9 +318,9 @@
     <p>
       Continue to <xref ref="Q2-large">Question 2</xref>.
     </p>
-  </section>
+  </page>
 
-  <section xml:id="Q1-large-either">
+  <page xml:id="Q1-large-either">
     <title>Either - Large Dataset</title>
     
     <p>
@@ -350,9 +350,9 @@
     <p>
       Go back to <xref ref="Q1-large">Question 1</xref>.
     </p>
-  </section>
+  </page>
 
-  <section xml:id="Q1-large-idk">
+  <page xml:id="Q1-large-idk">
     <title>I Don't Know - Large Dataset</title>
     
     <p>
@@ -395,9 +395,9 @@
         <li><p><xref ref="Q1-large-help">I don't know</xref></p></li>
       </ul>
     </p>
-  </section>
+  </page>
 
-  <section xml:id="Q1-large-help">
+  <page xml:id="Q1-large-help">
     <title>Help - Large Dataset</title>
     
     <p>
@@ -431,4 +431,4 @@
     <p>
       Go to <xref ref="Q2-large">Question 2</xref>.
     </p>
-  </section>
+  </page>
